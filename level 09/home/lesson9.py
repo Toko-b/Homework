@@ -81,3 +81,5 @@ password = input()
 
 print(name == name)
 print(password == password)
+
+# კონკატინაცია არის როდესაც ორ string -ს გავაერთიანებთ და წარმოვქმნით ახალ string -ს.
