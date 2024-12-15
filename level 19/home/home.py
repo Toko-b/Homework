@@ -49,15 +49,9 @@ print(list2[::-1])
 # task 5
 list2 = [num1, num2, num3,num4,num5]
 
-if num1 in list2:
-    print("this is in list")
-elif num2 in list2:
-    print("this is in list")
-elif num3 in list2:
-    print("this is in list")
-elif num4 in list2:
-    print("this is in list")
-elif num5 in list2:
+input = input("input a number")
+
+if input in list2:
     print("this is in list")
 else:
     print("this isnt in list")
