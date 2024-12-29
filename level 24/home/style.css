@@ -1,0 +1,32 @@
+body{
+    font-style: italic;
+    /*
+        ანიჭებს ტექსტს სტილს ერთერთი მნიშვნელობით italic-ით ასევე არის normal და oblique
+    */
+    font-family: 'Times New Roman', Times, serif;
+    /*
+        ვაძლევთ ტექსტს სხვადასხვა დამწერლობას და როდესაც ერთი არ მუშაობს გადადის მეორეზე
+    */
+    font-weight: 600;
+    /*
+        ამუქებს ტექსტს ასევე არის bold bolder და 100-დან 900-მდე ტექსტის სიმუქე
+    */
+    font-size: 30px;
+}
+
+#navigation{
+    color: rgb(125, 65, 154, 0,7);
+    
+}
+
+#Me{
+    color: #421054;
+}
+
+#School{
+    color: rgb(29, 194, 133);
+}
+
+#Hooby{
+    color: #541476;
+}
