@@ -1,0 +1,107 @@
+.First {
+
+    text-transform: capitalize;
+    /*
+        ადიდებს სიტყვის პირველ ასოს
+    */
+
+    text-align: center;
+    /*
+        ცენტრავს ტექსტს
+    */
+
+    text-decoration: line-through;
+    /*
+        ტექსტში ატარებს ხაზს
+    */
+
+    color: cadetblue;
+    /*
+        ტექსტს აძლევს ფერს
+    */
+
+    text-shadow: 6px 7px 10px bisque, 7px 14px 14px crimson;
+    /*
+        აძლევს ტექსტს ჩრდილს
+    */
+
+    word-spacing: 14px;
+
+    /*
+        სიტყვებს აშორებს 14 პიქსელით
+    */
+
+    letter-spacing: 5px;
+    /*
+        ასოებს აშორებს ერთმანეთს 5 პიქსელით
+    */
+}
+
+div{
+    width: 300px;
+
+    font-size: 2em;
+    /*
+        ტექსტის ზომა
+    */
+
+    text-align: right;
+    /*
+        ტექსტი გადაგვაქვს მარჯვნივ
+    */
+
+    letter-spacing: 4px;
+    /*
+        ასოებს აშორებს ერთმანეთს 4 პიქსელით
+    */
+
+    word-spacing: 2px;
+    
+    /*
+        სიტყვებს აშორებს 2 პიქსელით
+    */
+
+    line-height: 1.7;
+    /*
+        ზრდის ფრაზებს შორის სიმაღლეს
+    */
+
+    text-shadow: 5px 8px 17px aquamarine, 16px 6px 59px salmon;
+
+    text-transform: lowercase;
+    /*
+        აპატარავებს ასოებს
+    */
+
+    text-decoration: underline;
+    /*
+        ტექსტის ქვემოდან გადის ხაზი
+    */
+}
+
+.third{
+    width: 300px;
+
+    height: 50px;
+
+    text-transform: uppercase;
+    /*
+        ადიდებს ასოებს
+    */
+
+    letter-spacing: 7px;
+    /*
+        ასოებს აშორებს ერთმანეთს 7 პიქსელით
+    */
+
+    text-align: left;
+    /*
+        ტექსტი გადაგვაქვს მარცხნივ
+    */
+
+    text-decoration: overline;
+
+    /*
+        ტექსტის თავზე გადის ხაზი
+    */
+}

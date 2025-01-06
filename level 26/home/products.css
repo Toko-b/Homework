@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Volkhov:ital@1&display=swap');
+*{
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+}
+
+.foot{
+    color: #36558F;
+    text-shadow: 2px 4px 3px #AE8E1C;
+}
+
+.basket{
+    color: #FF5714;
+    text-shadow: 3px 2px 4px #1E212B;
+}
+
+.swim{
+    color: #5BC0BE;
+    text-shadow: 4px 3px 2px #1C2541;
+}
+
+.Future{
+    color: #63372C;
+    text-shadow: 5px 3px 3px #8A817C;
+}
+
+.ten{
+    color: #A7D3A6;
+    text-shadow: 3px 2px 5px #DC851F;
+}
+
+header h1{
+    text-align: center;
+}
+
+.navbar ol{
+    background-color: #7C7C7C;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar .list{
+    color: #96939B;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2em;
+}
+
+ 
+.navbar li{
+    
+    float: right;
+}
+
+
+footer a{
+    color: #DFFFD6;
+}

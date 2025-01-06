@@ -1,0 +1,42 @@
+*{
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header h1{
+    text-align: center;
+}
+
+.navbar ol{
+    background-color: #9DA39A;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar .list{
+    color: #F4FFF8;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2em;
+}
+
+ 
+.navbar li{
+    float: right;
+}
+
+table th{
+    background-color: #8DA7BE;
+}
+
+table a{
+    background-color: #8DA7BE;
+    color: #210203;
+}
+

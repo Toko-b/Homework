@@ -1,0 +1,60 @@
+*{
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.divisio{
+    color: #3E5622;
+    text-shadow: 3px 3px 3px #49D49D;
+}
+
+.bask{
+    color: #EEA243;
+    text-shadow: 3px 2px 2px #DDA15E;
+}
+
+.swim{
+    color: #6CCFF6;
+    text-transform: capitalize;
+    text-shadow: 5px 1px 4px #648DE5;
+}
+
+.america{
+    color: #8D5B4C;
+    text-shadow: 2px 4px 2px #88665D;
+}
+
+.ten{
+    color: #A2D729;
+    text-shadow: 2px 1px 3px #94FBAB;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+.navbar ul{
+    background-color: #66717E;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar .list{
+    color: #2B303A;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 2em;
+}
+
+ 
+.navbar li{
+    float: right;
+}
