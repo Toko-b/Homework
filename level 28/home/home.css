@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Volkhov:ital@1&display=swap');
+
+.parent{
+    background-color: rgb(255, 245, 208);
+    width: 1440px;
+    height: 1440px;
+    box-sizing: border-box;
+    float: center;
+    text-align: center;
+}
+
+.child{
+    padding-top: 150px;
+    background-color: rgb(255, 253, 247);
+    width: 600px;
+    height: 700px;
+}
+
+p{
+    display: inline;
+    text-align: right;
+    font-size: 28px;
+    height: 500px;
+}
+
+button{
+    background-color: darkolivegreen;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+img{
+    margin-right: 30px;
+    float: left;
+    height: 500px;
+}
+
+.Perfume{
+    color: grey;
+    margin-right: 120px;
+    font-size: 24px;
+}
+
+.headert{
+    font-size: 30px;
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.CHANEL{
+    font-size: 14px;
+    line-height: 0.8;
+    color: grey;
+    margin-right: 120px;
+    word-spacing: 0.5;
+}
+
+.money{
+    color: grey;
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.now{
+    color: darkolivegreen;
+    font-weight: bold;
+    font-family: monospace;
+}
