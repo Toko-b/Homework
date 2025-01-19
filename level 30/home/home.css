@@ -1,0 +1,49 @@
+#First{
+    background-color: royalblue;
+    height: 300px;
+}
+
+.ole{
+    list-style-position: inside;
+    list-style: none;
+    display: inline;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    border: white;
+    border-radius: 10px;
+    background-color: rgb(252, 175, 108);
+}
+
+.lie{
+    background-color: rgb(255, 237, 216);
+    max-width: 400px;
+}
+
+.h{
+    margin-left: 100px;
+    color: white;
+}
+
+#Second{
+    background-image: url(m.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hh{
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 3px 2px red;
+}
+
+#ola{
+    list-style-image: url(arr.jpg);
+}
+
+.lise{
+    color: dodgerblue;
+}

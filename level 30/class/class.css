@@ -1,0 +1,28 @@
+body{
+    background-color: royalblue;
+    height: 1000px;
+}
+
+ol{
+    list-style-position: inside;
+    list-style: none;
+    display: inline;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    border: white;
+    border-radius: 10px;
+    background-color: rgb(252, 175, 108);
+}
+
+li{
+    background-color: rgb(255, 237, 216);
+    max-width: 400px;
+}
+
+h1{
+    margin-left: 100px;
+    color: white;
+}

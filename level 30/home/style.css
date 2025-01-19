@@ -1,0 +1,22 @@
+
+.divis{
+    align-items: center;
+    max-width: 150px;
+    max-height: 300px;
+    border: red solid 3px;
+    border-radius: 10px;
+}
+
+div{
+    display: flex;
+    flex-flow: column;
+}
+
+div .divisa{
+    justify-content: center;
+    max-width: 150px;
+    max-height: 300px;
+    border: red solid 3px;
+    border-radius: 10px;
+    align-items: center;
+}
