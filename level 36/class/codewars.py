@@ -12,5 +12,3 @@ def grow(arr):
     for i in arr:
         sum = sum * i
     return sum
-
-# task 3
