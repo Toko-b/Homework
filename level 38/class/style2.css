@@ -1,0 +1,18 @@
+div{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.img1{
+    -webkit-box-reflect: below 10px;
+}
+
+
+.img2{
+    -webkit-animation: both;
+    animation: both;
+
+    -webkit-user-drag: auto;
+    -webkit-transform-style: unset;
+    transform-style: unset
+}

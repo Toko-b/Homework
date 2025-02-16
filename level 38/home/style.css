@@ -1,0 +1,213 @@
+.img1{
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+.img-2{
+    -webkit-mask-origin: content-box;
+    mask-origin: content-box;
+}
+
+.img-3{
+    -webkit-user-modify: read-write;
+}
+
+.img-4{
+    -webkit-box-reflect: below 10px;
+}
+
+.img-5{
+    -webkit-touch-callout: initial;
+}
+
+.divs{
+    display: inline;
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: indianred;
+    border: 1px solid black;
+    font-family: monospace;
+}
+
+.divs-2{
+    display: inline;
+    width: 50px;
+    height: 15px;
+    background-color: lightgoldenrodyellow;
+    color: lightseagreen;
+    border: 3px solid brown;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.divs-3{
+    display: inline;
+    width: 55px;
+    height: 25px;
+    background-color: lawngreen;
+    color: lightslategrey;
+    border: 4px solid slategrey;
+    font-size: 30px;
+}
+
+.div-4{
+    display: inline;
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    color: lightsteelblue;
+    border: 4px solid black;
+    font-size: 45px;
+    letter-spacing: 5px;
+    word-spacing: 6px;
+}
+
+.div-5{
+    display: inline;
+    width: 80px;
+    height: 45px;
+    background-color: cadetblue;
+    color: limegreen;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 15px;
+}
+
+.btn-1{
+    display: block;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 15px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.btn-2{
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+    word-spacing: 15px;
+    background-color: lime;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: lightskyblue;
+    font-size: 25px;
+}
+
+.btn-3{
+    display: block;
+    width: 175px;
+    height: 75px;
+    text-align: left;
+    word-spacing: 20px;
+    letter-spacing: 15px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    font-size: 15px;
+}
+
+.btn-4{
+    display: block;
+    width: 205px;
+    height: 125px;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    background-color: cornflowerblue;
+    border: 2px solid brown;
+    border-radius: 5px;
+    color: burlywood;
+    font-size: 12px;
+}
+
+.btn-5{
+    display: block;
+    width: 150px;
+    height: 210px;
+    letter-spacing: 4px;
+    background-color: violet;
+    border: none;
+    border-radius: 50%;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+.div-6{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: hotpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+.div-7{
+    display: inline-block;
+    width: 175px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gold;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;
+}
+
+.div-8{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 15px;
+    background-color: chartreuse;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.div-9{
+    display: inline-block;
+    width: 175px;
+    height: 120px;
+    border: none;
+    border-radius: 25%;
+    background-color: aquamarine;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.div-10{
+    display: inline-block;
+    width: 175px;
+    height: 120px;
+    border: none;
+    border-radius: 25%;
+    background-color: cornflowerblue;
+    color: rosybrown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: -20px;
+}
