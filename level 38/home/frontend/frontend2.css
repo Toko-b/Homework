@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+
+.background{
+    background-color: hsl(293, 100%, 63%);
+    width: 500px;
+    height: 550px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 100% 25%;
+    display: inline-block;
+}
+
+.background-2{
+    background-color: hsl(264, 100%, 61%);
+    height: 490px;
+    width: 500px;
+    position: relative;
+    top: 180px;
+    left: 0;
+    border-radius: 15px 15px 50% 50%;
+    display: inline-block;
+}
+
+.div-1{
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    height: 800px;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+    border-radius: 25px;
+}
+
+.btn{
+    background-color: white;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    left: 100px;
+    border-radius: 25px;
+    border: none;
+}
+
+.div-2{
+    background-color: hsl(270, 20%, 96%);
+    width: 325px;
+    height: 750px;
+    position: relative;
+    left: 27px;
+    bottom: 5px;
+    border-radius: 25px;
+}
+
+.background-3{
+    background-color: hsl(264, 100%, 61%);
+    width: 225px;
+    height: 75px;
+    border-radius: 25px 0 0 0 ;
+}
+
+.background-4{
+    background-color: hsl(293, 100%, 63%);
+    width: 100px;
+    height: 75px;
+    position: relative;
+    left: 225px;
+    border-radius: 0 25px 0 0;
+    bottom: 109px;
+}
+
+.paragraph-1{
+    display: inline;
+    position: relative;
+    left: 27px;
+    top: 15px;
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 27px;
+    top: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.em{
+    font-size: 11px;
+    left: 100px;
+    bottom: 30px;
+    color: hsl(276, 100%, 81%);
+}
+
+.em, .em-1, .em-2{
+    position: relative;
+    display: inline;
+}
+
+.em-1{
+    font-size: 13px;
+    left: 100px;
+    bottom: 35px;
+}
+
+.em-2{
+    font-size: 17px;
+    top: 30px;
+    left: 75px;
+}
+
+.div-3{
+    background-color: hsl(0, 0%, 87%);
+    border-radius: 15px;
+    position: relative;
+    bottom: 90px;
+    width: 185px;
+}
+
+.p-2{
+    display: inline-block;
+    color: hsl(276, 55%, 52%);
+    margin: 0;
+    line-height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.div-4{
+    background-color: hsl(0, 0%, 87%);
+    border-radius: 15px;
+    position: relative;
+    bottom: 72px;
+    width: 185px;
+}
+
+.dog{
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    position: relative;
+    right: 15px;
+    
+}
+
+.div-5{
+    position: relative;
+    left: 115px;
+    bottom: 45px;
+}
+
+.div-6{
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 130px;
+    bottom: 45px;
+    border-radius: 15px;
+    width: 175px;
+}
+
+.p-3{
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.div-7{
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 180px;
+    bottom: 35px;
+    border-radius: 15px;
+    width: 125px;
+}
+
+.div-8{
+    background-color: hsl(0, 0%, 87%);
+    border-radius: 15px;
+    position: relative;
+    bottom: 20px;
+    width: 190px;
+}
+
+.btn-2{
+    background-color: hsl(293, 100%, 63%);
+    border: none;
+    border-radius: 15px;
+    width: 225px;
+    text-align: left;
+    height: 50px;
+}
+
+.em-3{
+    padding-left: 55px;
+}
+
+.em-4{
+    padding-left: 75px;
+}
+
+.radio{
+    border: 1px solid hsl(289, 100%, 72%);
+}
+
+.div-10{
+    width: 275px;
+    background-color: hsl(206, 6%, 79%);
+    border-radius: 15px;
+    height: 40px;
+    position: relative;
+    left: 25px;
+}
+
+.input{
+    width: 225px;
+    border-radius: 15px;
+    border: none;
+    height: 38px;
+    background-color: hsl(206, 6%, 79%);
+    color: black;
+}
+
+.btn-3{
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(271, 36%, 24%);
+}
+
+.div-11{
+    position: relative;
+    bottom: 960px;
+    left: 1000px;
+    display: inline-block;
+}
+
+
+.p-4{
+    display: inline-block;
+    font-size: 14px;
+    color: hsl(270, 7%, 64%);
+}
+
+.h-1{
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: hsl(271, 36%, 24%);
+}
