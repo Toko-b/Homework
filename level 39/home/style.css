@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    height: 1000px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.div-1{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 597px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+    border-radius: 15px;
+}
+
+.img-1{
+    height: 301px;
+    width: 300px;
+    position: relative;
+    top: 24px;
+    left: 24px;
+    border-radius: 15px;
+}
+
+h2{
+    position: relative;
+    left: 26px;
+    top: 29px;
+    color: white;
+}
+
+.p-1{
+    position: relative;
+    left: 26px;
+    top: 27px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.img-2, .p-2{
+    position: relative;
+    top: 21px;
+    left: 24px;
+}
+
+.p-2{
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+}
+
+.img-3, .p-3{
+    position: relative;
+    top: 21px;
+    left: 108px;
+}
+
+.p-3{
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    width: 304px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.img-4{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 24px;
+    top: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.p-4{
+    display: inline-block;
+    position: relative;
+    left: 35px;
+    color: hsl(215, 19%, 51%);
+}
+
+.p-4 em{
+    color: white;
+    font-style: normal;
+}

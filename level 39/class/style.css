@@ -1,0 +1,26 @@
+.div-1{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: translate(200px);
+    font-size: 20px;
+    color: dodgerblue;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+
+    transition: 1.5s;
+}
+
+.div-1:hover{
+    background-color: orangered;
+    color: cornflowerblue;
+    transform: rotateY(140deg) translate(100px, 200px) scale(1.5, 2.3) skew(10deg, 25deg); 
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline;
+    text-align: right;
+}

@@ -1,0 +1,72 @@
+.div-1{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transform: translate(200px);
+    font-size: 20px;
+    color: dodgerblue;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+
+    transition: 1.5s;
+}
+
+.div-1:hover{
+    background-color: orangered;
+    color: cornflowerblue;
+    transform: rotateY(140deg) skew(25deg, 15deg); 
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline;
+    text-align: right;
+}
+
+.div-2{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    font-size: 20px;
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: dashed;
+
+    transition: 1.5s;
+}
+
+.div-2:hover{
+    background-color: lightseagreen;
+    color: lightslategray;
+    transform: translate(100px, 200px) scale(1.5, 2.3); 
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.div-3{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    font-size: 20px;
+    color: mediumslateblue;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 800;
+
+    transition: 1.5s;
+}
+
+.div-3:hover{
+    background-color: navy;
+    color: burlywood;
+    transform: rotateX(140deg) translate(50px, 10px) scale(0.6, 1.5) skew(20deg, 5deg); 
+    font-size: 150px;
+    font-family: cursive;
+    font-weight: 300;
+    text-decoration: underline;
+}
