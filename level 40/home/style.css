@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(221, 100%, 96%);
+    display: inline-block;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+    display: inline-block;
+}
+
+.div-1{
+    background-color: hsl(252, 100%, 67%);
+    width: 366px;
+    height: 513px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.h2{
+    color: hsl(247, 100%, 89%);
+}
+
+.circle{
+    width: 205px;
+    height: 205px;
+    border: none;
+    border-radius: 100%;
+    background-color: hsla(241, 72%, 46%, 1);
+    position: relative;
+    left: 84px;
+}
+
+
+
+.h1{
+    font-size: 60px;
+    padding-top: 45px;
+    margin: 0;
+    color: white;
+}
+
+.p-1{
+    color: hsl(241, 100%, 89%);
+}
+
+.div-2{
+    background-color: white;
+    width: 368;
+    height: 513px;
+    position: relative;
+    left: 362px;
+    bottom: 528px;
+    border-radius: 0 25px 25px 0;
+}
+
+.reaction, .memory, .Visual, .Verbal{
+    width: 280px;
+    height: 55px;
+    position: relative;
+    left: 50px;
+    border-radius: 15px;
+}
+
+.reaction{
+    background-color: hsl(353, 100%, 98%);
+}
+
+em{
+    color: hsl(300, 3%, 65%);
+}
+
+.p-r{
+    color: hsl(0, 100%, 67%);
+}
+
+.pm-1{
+    position: relative;
+    left: 75px;
+    color: black;
+    font-weight: 700;
+}
+
+.memory{
+    background-color: hsl(33, 100%, 98%);
+}
+
+.img{
+    position: relative; 
+    top: 5px;
+    padding-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.p-m{
+    color: hsl(39, 100%, 56%);
+}
+
+.pm-1{
+    position: relative;
+    left: 60px;
+    color: black;
+    font-weight: 700;
+}
+
+.pm-2{
+    position: relative;
+    left: 75px;
+    color: black;
+    font-weight: 700;
+}
+
+.p-v{
+    color: hsl(166, 100%, 37%);
+}
+
+.p-vi{
+    color: hsl(234, 85%, 45%);
+}
+
+.Verbal{
+    background-color: hsl(166, 79%, 91%);
+}
+
+.Visual{
+    background-color: hsl(236, 50%, 78%);
+}
+
+button{
+    width: 280px;
+    height: 55px;
+    position: relative;
+    left: 50px;
+    border-radius: 45px;
+    border: none;
+    background-color: hsl(243, 86%, 57%);
+    color: white;
+    cursor: pointer;
+}

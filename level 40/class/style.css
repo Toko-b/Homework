@@ -1,0 +1,46 @@
+.div-1{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    border: 3px solid black ;
+    border-radius: 15px;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 20px;
+
+    transition-duration: 2s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
+.div-1:hover{
+    border-radius: 100%;
+    width: 400px;
+    height: 350px;
+    background-color: lightblue;
+    color: lightpink;
+    letter-spacing: 15px;
+}
+
+.div-1{
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+    border: 2px solid brown ;
+    border-radius: 10px;
+    color: navajowhite;
+    text-align: center;
+    font-size: 25px;
+
+    transition: 2s 1s cubic-bezier(0.19, 1, 0.22, 1) all;
+}
+
+.div-1:hover{
+    border-radius: 100%;
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    color: crimson;
+    letter-spacing: 10px;
+}
