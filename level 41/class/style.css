@@ -1,0 +1,32 @@
+div{
+    width: 50px;
+    height: 27px;
+    background-color: hsl(72, 36%, 37%);
+    color: white;
+
+    animation: spin 6s alternate infinite ;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    10% {
+        transform: rotate(45deg);
+        background-color: cyan;
+    }
+
+    35% {
+        background-color: hsl(72, 36%, 37%);
+        transform: translateX(300px)
+    }
+
+    90% {
+        transform: rotate(400deg);
+        background-color: cyan;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        background-color: hsl(72, 36%, 37%);
+    }
+}

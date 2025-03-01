@@ -1,0 +1,81 @@
+.div-1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+    animation: strech 10s ease-in-out 0.5s 1;
+}
+
+@keyframes strech{
+    33%{
+        width: 200px;
+    }
+
+    66%{
+        width: 600px;
+    }
+
+    100%{
+        width: 200px;
+    }
+}
+
+.box-1{
+    background-color: red;
+    color: black;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    animation: move 10s normal 0.5s 1;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(300px);
+    }
+
+    25%{
+        transform: translateY(300px);
+    }
+
+    50%{
+        transform: translateX(-300px);
+    }
+
+    75%{
+        transform: translateY(-300px);
+    }
+}
+
+.div-2{
+    width: 50px;
+    height: 27px;
+    background-color: hsl(72, 36%, 37%);
+    color: white;
+
+    animation: spin 6s alternate infinite ;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    10% {
+        transform: rotate(45deg);
+        background-color: cyan;
+    }
+
+    35% {
+        background-color: hsl(72, 36%, 37%);
+        transform: translateX(300px)
+    }
+
+    90% {
+        transform: rotate(400deg);
+        background-color: cyan;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        background-color: hsl(72, 36%, 37%);
+    }
+}
