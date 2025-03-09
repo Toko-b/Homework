@@ -1,0 +1,46 @@
+.main{
+    height: 472px;
+    width: 635px;
+    background-color: white;
+}
+
+.h-1{
+    color: hsl(178, 37%, 50%);
+}
+
+.p-1{
+    color: hsl(71, 57%, 64%);
+}
+
+.p-2{
+    color: hsl(220, 12%, 80%);
+}
+
+.div-1{
+    background-color: hsl(179, 61%, 44%);
+    width: 315px;
+    color: white;
+    height: 257px;
+    padding-left: 37px;
+    padding-top: 33px;
+}
+
+.btn{
+    width: 258px;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    border: none;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.div-2{
+    background-color: hsl(179, 47%, 52%);
+    width: 320px;
+    height: 257px;
+    position: relative;
+    bottom: 290px;
+    left: 315px;
+    padding-left: 37px;
+    padding-top: 33px;
+}
