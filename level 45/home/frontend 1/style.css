@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+        url(imgs/bg-pattern-top-desktop.svg),
+        url(imgs/bg-pattern-bottom-desktop.svg)); 
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+}
+
+main{
+    padding-left: 200px;
+}
+
+.user{
+    color: hsl(300, 43%, 22%);
+    display: inline-block;
+    font-size: 3em;
+}
+
+.product{
+    color: hsl(300, 43%, 22%);
+    opacity: 0.7;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: -160px;
+}
+
+.rating1{
+    position: relative;
+    left: 500px;
+    width: 475px;
+    background-color: hsl(290, 30%, 96%);
+    border-radius: 10px;
+}
+
+.rating2{
+    position: relative;
+    left: 540px;
+    margin-top: 20px;
+    width: 475px;
+    background-color: hsl(290, 30%, 96%);
+    border-radius: 10px;
+}
+
+.img1{
+    padding-left: 35px;
+}
+
+.rating3{
+    left: 580px;
+    margin-top: 20px;
+    position: relative;
+    width: 475px;
+    background-color: hsl(290, 30%, 96%);
+    border-radius: 10px;
+}
+
+.rating3 h3,
+.rating2 h3,
+.rating1 h3{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.rating{
+    position: relative;
+    top: 250px;
+}
+
+.Buyers1,
+.Buyers2,
+.Buyers3{
+    background-color: hsl(300, 43%, 22%);
+    display: inline-block;
+    color: white;
+    width: 350px;
+    height: 235px;
+    position: relative;
+    top: 150px;
+    left: -365px;
+    border-radius: 10px;
+}
+
+.Buyers1{
+    margin-right: 15px;
+    position: relative;
+    top: 85px;
+}
+
+.Buyers1 img,
+.Buyers2 img,
+.Buyers3 img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 25px;
+    top: 35px;
+}
+
+.Buyers1 h3,
+.Buyers2 h3,
+.Buyers3 h3{
+    display: inline-block;
+}
+
+.Buyers1 .name,
+.Buyers2 .name,
+.Buyers3 .name{
+    position: relative;
+    left: 50px;
+    font-size: 15px;
+}
+
+.Buyers1 .Verified{
+    position: relative;
+    left: 85px;
+    top: -15px;
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.Buyers1 .txt,
+.Buyers2 .txt,
+.Buyers3 .txt{
+    padding-left: 25px;
+    line-height: 1.4;
+}
+
+.Buyers2{
+    margin-right: 15px;
+    position: relative;
+    top: 120px;
+}
+
+.Buyers2 .Verified,
+.Buyers3 .Verified{
+    position: relative;
+    top: 25px;
+    left: -45px;
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.Buyers3{
+    position: relative;
+    top: 155px;
+}
