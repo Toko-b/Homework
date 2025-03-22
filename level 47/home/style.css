@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: "DM Sans";
+}
+
+
+main{
+    width: 1440px;
+    height: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.div1{
+    background-color: burlywood;
+    grid-row: 1 / 4;
+    border-radius: 15px;
+    font-size: 1.6em;
+}
+
+.div1 h1{
+    padding-top: 145px;
+    padding-left: 55px;
+}
+
+.div1 span{
+    color: hsl(256, 59%, 55%);
+}
+
+.div2{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.div2 h1{
+    color: white;
+    font-size: 4.6em;
+    padding-top: 55px;
+}
+
+.div2 span{
+    color: hsl(39, 97%, 72%);
+}
+
+.div2 p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.div3{
+    background-color: hsl(255, 96%, 79%);
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column: 4 / 6;
+    border-radius: 15px;
+}
+
+.div3 h2{
+    font-size: 2.6em;
+    padding-top: 65px;
+    padding-left: 55px;
+}
+
+.div3 p{
+    padding-left: 55px;
+    font-size: 1.5em;
+    padding-top: 100px;
+}
+
+.div4{
+    background-color: hsl(40, 97%, 64%);
+    grid-row: 4 / 7;
+    border-radius: 15px;
+}
+
+.div4 h1{
+    padding-left: 35px;
+    padding-top: 35px;
+    font-size: 2.5em;
+}
+
+.div5{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.div5 h1{
+    font-size: 1.5em;
+    padding-top: 35px;
+    padding-left: 55px;
+}
+
+.div6{
+    background-color: hsl(40, 96%, 66%);
+    border-radius: 15px;
+}
+
+.div6 h1{
+    padding-left: 25px;
+    padding-top: 45px;
+}
+
+.div7{
+    background-color: white;
+    grid-row-start: 5;
+    border-radius: 15px;
+}
+
+.div7 h1{
+    font-size: 5em;
+    padding-top: 35px;
+    padding-left: 45px;
+}
+
+.div7 p{
+    font-size: 1.5em;
+    padding-left: 45px;
+}
+
+.div8{
+    grid-column: 3 / 6;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 15px;
+}
+
+.div8 h1{
+    position: relative;
+    left: 375px;
+    top: -150px;
+    color: white;
+    font-size: 2.7em;
+}
+
+.schedule{
+    height: 485px;
+    width: 300px;
+    position: relative;
+    left: 60px;
+    top: 45px;
+}
+
+.star{
+    width: 189px;
+}
+
+.Create{
+    width: 265px;
+    height: 155px;
+    padding-left: 55px;
+}
+
+.ai-content{
+    width: 250px;
+    height: 285px;
+    position: relative;
+    top: 105px;
+    left: 35px;
+}
+
+.platform{
+    width: 200px;
+    height: 65px;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+.consistent{
+    width: 208px;
+    height: 95px;
+    position: relative;
+    top: 5px;
+    left: 35px;
+}
+
+.audience{
+    width: 180px;
+    height: 80px;
+    position: relative;
+    left: 65px;
+    top: 35px;
+}
+
+.followers{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 35px;
+    top: 65px;
+}
