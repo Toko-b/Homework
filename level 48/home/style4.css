@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-areas: 
+        'div1 div1 div1'
+        'div2 div3 div3'
+        'div2 div4 div5'
+    ;
+
+    gap: 35px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 1fr;
+}
+
+.div1{
+    background-color: hsl(24, 98%, 69%);
+    grid-area: div1;
+}
+
+.div2{
+    grid-area: div2;
+    background-color: hsl(168, 99%, 33%);
+}
+
+.div3{
+    grid-area: div3;
+    background-color: hsl(168, 75%, 43%);
+}
+
+.div4{
+    grid-area: div4;
+    background-color: hsl(3, 96%, 66%);
+}
+
+.div5{
+    grid-area: div5;
+    background-color: hsl(24, 98%, 69%);
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-areas:
+        'header header aside'
+        'main footer aside'
+    ;
+
+    gap: 20px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr ;
+}
+
+header{
+    background-color: hsl(3, 96%, 66%);
+    grid-area: header;
+}
+aside{
+    grid-area: aside;
+    background-color: hsl(24, 98%, 69%);
+}
+main{
+    grid-area: main;
+    background-color: hsl(168, 99%, 33%);
+}
+
+footer{
+    grid-area: footer;
+    background-color: hsl(168, 75%, 43%);
+}

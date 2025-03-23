@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-areas: 
+        'aside header header header'
+        'aside div1 div2 div3'
+        'aside main main main'
+        'aside Footer Footer Footer'
+    ;
+
+    grid-template-columns: 300px 1fr 1fr 1fr;
+    grid-template-rows: 100px 250px 5fr 100px; 
+}
+
+header{
+    background-color: hsl(210, 100%, 78%);
+    color: white;
+    grid-area: header;
+    text-align: center;
+    padding-top: 50px;
+}
+
+aside{
+    background-color: hsl(210, 99%, 63%);
+    color: white;
+    grid-area: aside;
+    text-align: center;
+    padding-top: 450px;
+}
+
+.div1{
+    grid-area: div1;
+    background-color: hsl(210, 95%, 85%);
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.div2{
+    grid-area: div2;
+    background-color: hsl(211, 33%, 53%);
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.div3{
+    grid-area: div3;
+    background-color: hsl(209, 52%, 62%);
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+}
+
+main{
+    grid-area: main;
+    background-color: hsl(210, 52%, 66%);
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+footer{
+    grid-area: Footer;
+    color: white;
+    background-color: hsl(209, 38%, 48%);
+    text-align: center;
+    padding-top: 50px;
+}

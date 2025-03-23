@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+    display: grid;
+
+    gap: 25px;
+
+    grid-template-areas: 
+        'div1 div1 div1'
+        'div2 div3 div3'
+        'div4 div4 div4'
+    ;
+
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.div1{
+    grid-area: div1;
+    background-color: hsl(24, 98%, 69%);
+}
+
+.div2{
+    grid-area: div2;
+    background-color: hsl(168, 99%, 33%);
+}
+
+.div3{
+    grid-area: div3;
+    background-color: hsl(3, 96%, 66%);
+}
+
+.div4{
+    grid-area: div4;
+    background-color: hsl(168, 75%, 43%);
+}
