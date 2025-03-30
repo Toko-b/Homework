@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, hsl(288, 68%, 68%), hsl(286, 68%, 69%));
+}
+
+main{
+    background-color: white;
+    height: 750px;
+    width: 700px;
+    font-family: monospace;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 35px;
+}
+
+#name, #email, #phone, #message{
+    padding-left: 75px;
+}
+
+#first{
+    margin-left: 75px;
+    margin-right: 45px;
+    height: 50px;
+    width: 250px;
+}
+
+#Last{
+    height: 50px;
+    width: 250px;
+}
+
+input[type="email"], input[type="tel"]{
+    width: 550px;
+    height: 50px;
+    margin-left: 75px;
+}
+
+textarea{
+    width: 550px;
+    margin-left: 75px;
+    height: 150px;
+}
+
+input[type="submit"]{
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 35px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-left: 300px;
+}

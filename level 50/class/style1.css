@@ -1,0 +1,134 @@
+/* reseting html */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 77%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* styilyng main text */
+main{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 45px;
+}
+
+/* styling labels */
+
+#l-1{
+    position: absolute;
+    left: 600px;
+    top: 210px;
+    font-size: 0.7em;
+}
+
+#l-2{
+    position: absolute;
+    top: 310px;
+    left: 600px;
+    font-size: 0.7em;
+}
+
+#l-3{
+    position: absolute;
+    top: 310px;
+    left: 955px;
+    font-size: 0.7em;
+}
+
+#l-4{
+    font-size: 0.7em;
+    position: absolute;
+    top: 425px;
+    left: 605px;
+}
+
+#l-5{
+    font-size: 0.7em;
+    position: absolute;
+    top: 525px;
+    left: 605px;
+}
+
+/* styling input tags */
+
+input[type="text"]{
+    height: 80px;
+    width: 700px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 3px 12px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+input[type="email"]{
+    height: 80px;
+    width: 350px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 3px 12px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+input[type="tel"]{
+    height: 80px;
+    width: 350px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 3px 12px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+
+select{
+    width: 700px;
+    height: 80px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 2px 3px 12px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+textarea{
+    width: 700px;
+    height: 160px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 2px 3px 12px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+textarea::placeholder{
+    padding-top: 25px;
+}
+
+#submit{
+    width: 700px;
+    height: 40px;
+    background-color: hsl(0, 0%, 21%);
+    margin-left: 50px;
+    color: white;
+    border: none;
+    border-radius: 45px;
+}

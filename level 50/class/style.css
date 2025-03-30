@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(175deg, hsl(258, 80%, 17%) 75%, hsl(347, 91%, 58%));
+}
+
+div{
+    width: 875px;
+    height: 480px;
+    background-color: hsl(193, 76%, 58%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    width: 460px;
+    height: 300px;
+    font-family: monospace;
+}
+
+main h1{
+    color: hsl(193, 76%, 58%);
+    padding-left: 65px;
+    padding-top: 45px;
+    font-size: 1.7em;
+}
+
+input[type="text"], input[type="password"]{
+    width: 340px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 65px;
+}
+
+input[type="button"]{
+    width: 340px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    left: 65px;
+    background-color: hsl(193, 76%, 58%);
+    color: white;
+    border: none;
+}
