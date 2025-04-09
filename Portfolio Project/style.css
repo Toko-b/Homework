@@ -1,0 +1,2077 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+}
+
+#dropdown{
+    display: none;
+}
+
+#mobile-img{
+    display: none;
+}
+
+
+header{
+    background-image: linear-gradient(105deg,
+     white 0%,
+     white 50%, 
+     black 50%,
+     black 100%);
+    height: 950px;
+    border-bottom: 2px solid black;
+}
+
+nav{
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    position: relative;
+    left: 1200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    transition: all 1s ease;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid #FB4D3D;
+    padding: 5px 10px 5px 10px;
+}
+
+#myimg{
+    position: relative;
+    left: 1200px;
+    top: 50px;
+    height: 600px;
+    width: 600px;
+}
+
+.header{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+}
+
+.Future{
+    position: relative;
+    bottom: 300px;
+    color: hsl(0, 0%, 58%);
+    left: 200px;
+}
+
+#gita{
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+#git{
+    width: 75px;
+    height: 50px;
+}
+
+#sect-me{
+    position: relative;
+    left: 650px;
+    margin-top: 200px;
+    width: 100%;
+}
+
+#about{
+    font-size: 3em;
+    padding: 35px 65px 35px 65px;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    border: 5px solid black;
+    margin-bottom: 45px;
+    letter-spacing: 7px;
+}
+
+
+#me{
+    position: relative;
+    right: 450px;
+    animation: fade 2s ease-in 0s 1;
+    width: 550px;
+    box-shadow: 6px 7px 6px #5A5766;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.about-paragraph{
+    font-size: 1.8em;
+    background-color: #7F91D3;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 3px 2px 15px black;
+    padding: 15px;
+    left: -160px;
+}
+
+#lange{
+    border: 5px solid black;
+    font-size: 2em;
+    padding: 25px 65px 25px 65px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin-top: 105px;
+    margin-bottom: 55px;
+    letter-spacing: 10px;
+}
+
+#Using{
+    font-size: 1.5em;
+    position: relative;
+    left: -60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+.languages{
+    margin-top: 55px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 75px;
+}
+
+.html, #css, #py, #figma{
+    display: inline-block;
+    position: relative;
+    left: -180px;
+    top: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 75px;
+}
+
+#learn{
+    font-size: 1.5em;
+    position: relative;
+    left: -60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+#js{
+    display: inline-block;
+    position: relative;
+    left: -210px;
+    top: 25px;
+    letter-spacing: 2px;
+}
+
+#project{
+    position: relative;
+    left: 650px;
+    margin-top: 200px;
+    width: 100%;
+}
+
+
+#Gallery{
+    margin-top: 75px;
+}
+
+#gallery-h1{
+    border: 5px solid black;
+    font-size: 2em;
+    padding: 25px 65px 25px 65px;
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+}
+
+.Gallery{
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 4px 10px #232020;
+    position: relative;
+    left: 370px;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: fade 2s ease-in 0s 1;
+}
+
+#p-h1{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+    font-size: 2em;
+    border: 5px solid black;
+    padding: 25px 65px 25px 65px;
+    display: inline-block;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#flex{
+    position: relative;
+    right: 170px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Game, #Shop, #Yt{
+    width: 250px;
+    height: 215px;
+    background-color: #009FFD;
+    display: flex;
+    color: #E5E7E6;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-out;
+    border-radius: 15px;
+}
+
+#Game h1, #Shop h1, #Yt h1{
+    font-size: 2em;
+    transition: all 2s ease;
+}
+
+#Game:hover h1, #Shop:hover h1, #Yt:hover h1{
+    display: none;
+}
+
+#Game:hover::after, #Shop:hover::after, #Yt:hover::after{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    background-color: #6874E8;
+    content: "Coming Soon";
+    color: #030027;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+#contact{
+    margin-top: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+#contact h1{
+    border: 5px solid black;
+    font-size: 2em;
+    padding: 25px 65px 25px 65px;
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    margin-top: 105px;
+    margin-bottom: 75px;
+    letter-spacing: 10px;
+}
+
+input[type="text"]::placeholder, 
+input[type="email"]::placeholder, 
+input[type="tel"]::placeholder, 
+textarea::placeholder{
+    color: #2A2B2E;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"]{
+    width: 500px;
+    height: 35px;
+    padding: 15px;
+    border: none;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-bottom: 25px;
+}
+
+textarea{
+    width: 500px;
+    height: 125px;
+    padding: 15px;
+    border: none;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+input[type="submit"]{
+    border-top: 4px;
+    border-bottom: 4px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+footer{
+    height: 400px;
+    background-color: #2A2B2E;
+    margin-top: 400px;
+}
+
+
+#anchor{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 55px;
+    left: 900px;
+}
+
+#fb{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 775px;
+    top: 155px;
+}
+
+#git-img{
+    width: 75px;
+    height: 50px;
+    position: relative;
+    left: 800px;
+    top: 155px;
+}
+
+#par{
+    position: relative;
+    left: 850px;
+    top: 255px;
+    color: white;
+}
+
+@media (max-width: 1887px){
+
+    nav{
+        width: 700px;
+        left: 1100px;
+    }
+    
+    nav a{
+        width: 100px;
+        text-align: center;
+    }
+    
+
+    #myimg{
+        left: 1050px;
+        width: 700px;
+        height: 700px;
+    }
+
+    .header{
+        position: relative;
+        bottom: 400px;
+        left: 200px;
+        font-size: 2.5em;
+    }
+    
+    .Future{
+        position: relative;
+        bottom: 400px;
+        color: hsl(0, 0%, 58%);
+        left: 200px;
+        font-size: 2em;
+    }
+    
+    #gita{
+        position: relative;
+        bottom: 380px;
+        left: 200px;
+    }
+    
+    #git{
+        width: 100px;
+        height: 75px;
+    }
+
+    #about{
+        left: -25px;
+        font-size: 3.8em;
+    }
+
+    #me{
+        right: 450px;
+        width: 475px;
+    }
+
+    .about-paragraph{
+        left: -140px;
+        font-size: 1.8em;
+    }
+
+    #lange{
+        left: 45px;
+        font-size: 3em;
+    }
+    
+    #Using{
+        left: -140px;
+        font-size: 2em;
+    }
+    
+    .languages{
+        left: -150px;
+        width: 175px;
+        height: 175px;
+    }
+    
+    .html, #css, #py, #figma{
+        left: -265px;
+    }
+    
+    #learn{
+        left: -140px;
+        font-size: 2em;
+    }
+    
+    #js{
+        left: -300px;
+    }
+
+    
+    #gallery-h1{
+        left: 650px;
+        font-size: 3em;
+    }
+    
+    
+    .Gallery{
+        left: 250px;
+        width: 400px;
+        height: 400px;
+    }
+
+    #project{
+        left: 585px;
+    }
+
+    #p-h1{
+        font-size: 3em;
+    }
+    
+    #flex{
+        gap: 15px;
+    }
+    
+    #Game, #Shop, #Yt{
+        width: 300px;
+        height: 250px;
+    }
+    
+    
+    #Game:hover h1, #Shop:hover h1, #Yt:hover h1{
+        display: none;
+    }
+    
+    #Game:hover::after, #Shop:hover::after, #Yt:hover::after{
+        display: flex;
+        width: 300px;
+        height: 125px;
+    }
+    
+    #contact h1{
+        left: -50px;
+        font-size: 3em;
+    }
+    
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        width: 700px;
+        height: 35px;
+        position: relative;
+        left: -50px;
+    }
+    
+    textarea{
+        position: relative;
+        right: 50px;
+        width: 700px;
+    }
+    
+    input[type="submit"]{
+        position: relative;
+        right: 50px;
+    }
+    
+    #anchor{
+        left: 875px;
+    }
+    
+    #fb{
+        left: 775px;
+    }
+    
+    #git-img{
+        left: 800px;
+    }
+    
+    #par{
+        left: 825px;
+    }
+}
+
+@media (max-width: 1440px){
+
+    header{
+        height: 840px;
+    }
+
+    nav{
+        width: 350px;
+        left: 900px;
+    }
+
+
+    #myimg{
+        left: 800px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .header{
+        position: relative;
+        bottom: 200px;
+        font-size: 1.8em;
+    }
+    
+    .Future{
+        position: relative;
+        bottom: 200px;
+        font-size: 1.8em;
+    }
+    
+    #gita{
+        position: relative;
+        bottom: 200px;
+    }
+    
+    #about{
+        font-size: 2em;
+        position: relative;
+        left: -150px;
+    }
+    
+    
+    #me{
+        right: 450px;
+        width: 350px;
+    }
+    
+    .about-paragraph{
+        font-size: 1.3em;
+        left: -250px;
+    }
+    
+    #lange{
+        position: relative;
+        left: -125px;
+        font-size: 2em;
+    }
+    
+    #Using{
+        left: -360px;
+        font-size: 1.5em;
+    }
+    
+    .languages{
+        height: 150px;
+        width: 150px;
+        position: relative;
+        left: -300px;
+    }
+    
+    .html, #css, #py, #figma{
+        left: -400px;
+    }
+    
+    #learn{
+        position: relative;
+        font-size: 1.5em;
+        left: -360px;
+    }
+    
+    #js{
+        left: -435px;
+    }
+    
+    
+    #Gallery{
+        margin-top: 75px;
+    }
+    
+    #gallery-h1{
+        left: 500px;
+        font-size: 2em;
+    }
+    
+    .Gallery{
+        width: 300px;
+        height: 300px;
+        left: 215px;
+    }
+
+    #project{
+        position: relative;
+        left: 450px;
+        margin-top: 200px;
+        width: 100%;
+    }
+    
+    #p-h1{
+        left: 65px;
+        font-size: 2em;
+    }
+    
+    #flex{
+        position: relative;
+        right: 220px;
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Game, #Shop, #Yt{
+        width: 250px;
+        height: 215px;
+        background-color: #009FFD;
+        display: flex;
+        color: #E5E7E6;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s ease-out;
+        border-radius: 15px;
+    }
+    
+    #Game h1, #Shop h1, #Yt h1{
+        font-size: 2em;
+        transition: all 2s ease;
+    }
+    
+    #Game:hover h1, #Shop:hover h1, #Yt:hover h1{
+        display: none;
+    }
+    
+    #Game:hover::after, #Shop:hover::after, #Yt:hover::after{
+        display: flex;
+        width: 250px;
+        height: 100px;
+        background-color: #6874E8;
+        content: "Coming Soon";
+        color: #030027;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+    }
+    
+    #contact{
+        margin-top: 50px;
+        height: 400px;
+        text-align: center;
+    }
+    
+    #contact h1{
+        font-size: 2em;
+        left: -45px;
+    }
+    
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+    
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        width: 500px;
+        height: 35px;
+        padding: 15px;
+        border: none;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        margin-bottom: 25px;
+    }
+    
+    textarea{
+        width: 500px;
+        height: 125px;
+        padding: 15px;
+        border: none;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+    }
+    
+    input[type="submit"]{
+        border-top: 4px;
+        border-bottom: 4px;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+    
+    footer{
+        height: 400px;
+        background-color: #2A2B2E;
+        margin-top: 400px;
+    }
+    
+    
+    #anchor{
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 55px;
+        left: 650px;
+    }
+    
+    #fb{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 550px;
+    }
+    
+    #git-img{
+        width: 75px;
+        height: 50px;
+        position: relative;
+        left: 575px;
+        top: 155px;
+    }
+    
+    #par{
+        position: relative;
+        left: 600px;
+        top: 255px;
+        color: white;
+    }
+}
+
+@media (max-width: 1024px){
+    nav{
+        display: block;
+        padding-top: 100px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        position: relative;
+        left: 600px;
+    }
+
+    
+    #myimg{
+        position: relative;
+        left: 600px;
+        top: 100px;
+        height: 350px;
+        width: 350px;
+    }
+    
+    .header{
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+    }
+    
+    .Future{
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+    }
+    
+    #gita{
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+    }
+    
+    #git{
+        width: 75px;
+        height: 50px;
+    }
+    
+    #sect-me{
+        position: relative;
+        left: 300px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    #about{
+        font-size: 1.5em;
+        left: 50px;
+        margin-bottom: 25px;
+        padding: 25px 55px 25px 55px;
+    }
+    
+    
+    #me{
+        position: relative;
+        right: 250px;
+        width: 300px;
+    }
+    
+    .about-paragraph{
+        font-size: 1.2em;
+        left: -160px;
+    }
+    
+    #lange{
+        font-size: 1.5em;
+        padding: 25px 55px 25px 55px;
+        position: relative;
+        left: 75px;
+        margin-top: 75px;
+    }
+    
+    #Using{
+        font-size: 1.3em;
+        left: -160px;
+    }
+    
+    .languages{
+        margin-top: 55px;
+        height: 100px;
+        width: 100px;
+        left: -55px;
+    }
+    
+    .html, #css, #py, #figma{
+        display: inline-block;
+        position: relative;
+        left: -135px;
+        top: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 75px;
+    }
+    
+    #learn{
+        font-size: 1.3em;
+        left: -160px;
+    }
+    
+    #js{
+        font-size: 0.8em;
+        left: -155px;
+    }
+    
+    #Gallery{
+        margin-top: 50px;
+    }
+    
+    #gallery-h1{
+        font-size: 1.5em;
+        padding: 25px 55px 25px 55px;
+        left: 375px;
+    }
+    
+    .Gallery{
+        width: 250px;
+        height: 250px;
+        left: 125px;
+    }
+    
+    #p-h1{
+        position: relative;
+        bottom: 50px;
+        font-size: 2em;
+        border: 5px solid black;
+        padding: 25px 65px 25px 65px;
+        display: inline-block;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+
+    #project{
+        position: relative;
+        left: 305px;
+        margin-top: 200px;
+        width: 100%;
+    }
+    
+    
+    #flex{
+        position: relative;
+        right: 150px;
+        width: 750px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Game, #Shop, #Yt{
+        width: 200px;
+        height: 200px;
+        background-color: #009FFD;
+        display: flex;
+        color: #E5E7E6;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s ease-out;
+        border-radius: 15px;
+    }
+    
+    #Game h1, #Shop h1, #Yt h1{
+        font-size: 1.5em;
+        transition: all 2s ease;
+    }
+    
+    #Game:hover h1, #Shop:hover h1, #Yt:hover h1{
+        display: none;
+    }
+    
+    #Game:hover::after, #Shop:hover::after, #Yt:hover::after{
+        display: flex;
+        width: 200px;
+        height: 100px;
+        background-color: #6874E8;
+        content: "Coming Soon";
+        color: #030027;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3em;
+    }
+    
+    #contact{
+        margin-top: 50px;
+        height: 400px;
+        text-align: center;
+    }
+    
+    #contact h1{
+        font-size: 2em;
+        padding: 25px 55px 25px 55px;
+        left: 25px;
+        margin-top: 85px;
+        margin-bottom: 55px;
+    }
+    
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+    
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        left: 25px;
+    }
+    
+    textarea{
+        left: 25px;
+    }
+    
+    input[type="submit"]{
+        left: 25px;
+    }
+    
+    footer{
+        height: 400px;
+        background-color: #2A2B2E;
+        margin-top: 400px;
+    }
+    
+    
+    #anchor{
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 55px;
+        left: 500px;
+    }
+    
+    #fb{
+        left: 375px;
+        top: 125px;
+    }
+    
+    #git-img{
+        left: 425px;
+        top: 125px;
+    }
+    
+    #par{
+        left: 450px;
+        top: 255px;
+    }
+}
+
+@media (max-width: 768px) {
+    header{
+        background-image: linear-gradient(105deg,
+         white 0%,
+         white 40%, 
+         black 40%,
+         black 100%);
+        height: 750px;
+        border-bottom: 2px solid black;
+    }
+    
+    
+    nav{
+        display: block;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        width: 275px;
+        position: relative;
+        left: 425px;
+    }
+
+    
+    #myimg{
+        position: relative;
+        left: 325px;
+        top: 100px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .header{
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+        font-size: 1.5em;
+    }
+    
+    .Future{
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+        font-size: 1.5em;
+    }
+    
+    #gita{
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+    }
+    
+    #git{
+        width: 75px;
+        height: 50px;
+    }
+    
+    #sect-me{
+        position: relative;
+        left: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    #about{
+        font-size: 1.25em;
+        left: 50px;
+        margin-bottom: 25px;
+        padding: 25px 55px 25px 55px;
+    }
+    
+    
+    #me{
+        position: relative;
+        right: 150px;
+        width: 250px;
+    }
+    
+    .about-paragraph{
+        font-size: 0.8em;
+        left: -120px;
+    }
+    
+    #lange{
+        font-size: 1.25em;
+        padding: 25px 55px 25px 55px;
+        position: relative;
+        left: 75px;
+        margin-top: 75px;
+    }
+    
+    #Using{
+        font-size: 1.25em;
+        left: -160px;
+    }
+    
+    .languages{
+        margin-top: 55px;
+        height: 100px;
+        width: 100px;
+        left: -105px;
+    }
+    
+    .html, #css, #py, #figma{
+        display: inline-block;
+        position: relative;
+        left: -185px;
+        top: 25px;
+        letter-spacing: 2px;
+        margin-bottom: 75px;
+        font-size: 0.8em;
+    }
+    
+    #learn{
+        font-size: 1.25em;
+        left: -160px;
+    }
+    
+    #js{
+        font-size: 0.8em;
+        left: -205px;
+    }
+    
+    #Gallery{
+        margin-top: 25px;
+    }
+    
+    #gallery-h1{
+        font-size: 1.25em;
+        left: 225px;
+    }
+    
+    .Gallery{
+        width: 250px;
+        height: 250px;
+        left: 100px;
+        margin-bottom: 15px;
+    }
+    
+    #me3{
+        position: relative;
+        left: 225px;
+    }
+
+    #p-h1{
+        position: relative;
+        bottom: 50px;
+        font-size: 1.25em;
+        padding: 25px 55px 25px 55px;
+    }
+
+    #project{
+        position: relative;
+        left: 165px;
+        margin-top: 200px;
+        width: 100%;
+    }
+    
+    
+    #flex{
+        position: relative;
+        right: 150px;
+        width: 675px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Game, #Shop, #Yt{
+        width: 175px;
+        height: 175px;
+    }
+    
+    #Game h1, #Shop h1, #Yt h1{
+        font-size: 1.25em;
+        transition: all 2s ease;
+    }
+    
+    #Game:hover h1, #Shop:hover h1, #Yt:hover h1{
+        display: none;
+    }
+    
+    #Game:hover::after, #Shop:hover::after, #Yt:hover::after{
+        display: flex;
+        width: 175px;
+        height: 100px;
+        font-size: 1em;
+    }
+    
+    #contact{
+        margin-top: 50px;
+        height: 400px;
+        text-align: center;
+    }
+    
+    #contact h1{
+        font-size: 1.25em;
+        padding: 25px 55px 25px 55px;
+        left: -25px;
+        margin-top: 65px;
+        margin-bottom: 35px;
+    }
+    
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+    
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        left: -25px;
+    }
+    
+    textarea{
+        left: -25px;
+    }
+    
+    input[type="submit"]{
+        left: -25px;
+    }
+    
+    footer{
+        height: 400px;
+        background-color: #2A2B2E;
+        margin-top: 400px;
+    }
+    
+    
+    #anchor{
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 55px;
+        left: 335px;
+    }
+    
+    #fb{
+        left: 225px;
+        top: 125px;
+    }
+    
+    #git-img{
+        left: 275px;
+        top: 125px;
+    }
+    
+    #par{
+        left: 300px;
+        top: 255px;
+    }
+}
+
+@media (max-width: 425px) {
+    header{
+        background-image: linear-gradient(140deg,
+         black 0%,
+         black 50%,
+         rgba(94, 94, 94, 0) 100%,
+        );
+    }
+
+    #dropdown{
+        display: inline-block;
+        position: relative;
+        left: 400px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -400px;
+        min-width: 425px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #mobile-img{
+        display: inline-block;
+        bottom: 50px;
+        width: 425px;
+    }
+
+    #myimg{
+        display: none;
+    }
+
+    .header{
+        position: relative;
+        color: white;
+        left: 175px;
+        top: 25px;
+        font-size: 1.25em;
+    }
+    
+    .Future{
+        position: relative;
+        top: 25px;
+        left: 175px;
+        font-size: 1.25em;
+    }
+    
+    #gita{
+        position: relative;
+        top: 25px;
+        left: 175px;
+    }
+    
+    #git{
+        width: 75px;
+        height: 50px;
+    }
+    
+    #sect-me{
+        position: relative;
+        left: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #about{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -98px;
+    }
+
+    .about-paragraph{
+        font-size: 0.8em;
+        top: 50px;
+        left: -165px;
+    }
+
+    #lange{
+        font-size: 1em;
+        left: -80px;
+        padding: 15px 35px;
+    }
+
+    #me{
+        display: none;
+    }
+
+    #Using{
+        left: -50px;
+    }
+
+    #figma, #figma-img{
+        display: none;
+    }
+
+    #html-img{
+        left: -35px;
+    }
+
+    .html{
+        left: -115px;
+    }
+
+    #css-img{
+        left: -205px;
+        top: 145px;
+    }
+
+    #css{
+        left: -280px;
+        top: 150px;
+    }
+
+    #py-img{
+        left: -350px;
+        top: 300px;
+    }
+
+    #py{
+        top: 225px;
+        left: -20px;
+    }
+    
+
+    #learn{
+        display: none;
+    }
+
+    #js{
+        display: none;
+    }
+
+    #js-img{
+        display: none;
+    }
+
+    #Gallery{
+        margin-top: 175px;
+    }
+
+    #gallery-h1{
+        left: 100px;
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    .Gallery{
+        left: 75px;
+    }
+
+    #me3{
+        left: 75px;
+    }
+
+    #p-h1{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -50px;
+    }
+
+    #Shop{
+        position: relative;
+        left: -25px;
+    }
+
+    #Yt{
+        position: relative;
+        left: -400px;
+        top: 200px;
+    }
+
+    #contact{
+        margin-top: 150px;
+        position: relative;
+        left: 25px;
+    }
+
+    #contact h1{
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        width: 300px;
+        height: 35px;
+        padding: 15px;
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    input[type="submit"]{
+        border-top: 4px;
+        border-bottom: 4px;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    #anchor{
+        left: 200px;
+    }
+
+    #fb{
+        left: 75px;
+    }
+
+    #git-img{
+        left: 100px;
+    }
+
+    #par{
+        left: 125px;
+    }
+}
+
+@media (max-width: 375px) {
+    header{
+        background-image: linear-gradient(140deg,
+         black 0%,
+         black 50%,
+         rgba(94, 94, 94, 0) 100%,
+        );
+        width: 100%;
+    }
+
+    #dropdown{
+        display: inline-block;
+        position: relative;
+        left: 350px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -350px;
+        min-width: 375px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #mobile-img{
+        display: inline-block;
+        bottom: 50px;
+        width: 375px;
+    }
+
+    #myimg{
+        display: none;
+    }
+
+    .header{
+        position: relative;
+        color: white;
+        left: 175px;
+        top: 25px;
+        font-size: 1em;
+    }
+    
+    .Future{
+        position: relative;
+        top: 25px;
+        left: 175px;
+        font-size: 1em;
+    }
+    
+    #gita{
+        position: relative;
+        top: 25px;
+        left: 175px;
+    }
+    
+    #git{
+        width: 75px;
+        height: 50px;
+    }
+    
+    #sect-me{
+        position: relative;
+        left: 200px;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    #about{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -147px;
+    }
+
+    .about-paragraph{
+        font-size: 0.7em;
+        top: 50px;
+        left: -195px;
+    }
+
+    #lange{
+        font-size: 1em;
+        left: -140px;
+        padding: 15px 35px;
+    }
+
+    #me{
+        display: none;
+    }
+
+    #Using{
+        left: -100px;
+    }
+
+    #figma, #figma-img{
+        display: none;
+    }
+
+    #html-img{
+        left: -85px;
+    }
+
+    .html{
+        left: -165px;
+    }
+
+    #css-img{
+        left: -245px;
+        top: 145px;
+    }
+
+    #css{
+        left: -320px;
+        top: 150px;
+    }
+
+    #py-img{
+        display: none;
+    }
+
+    #py{
+        display: none;
+    }
+    
+
+    #learn{
+        display: none;
+    }
+
+    #js{
+        display: none;
+    }
+
+    #js-img{
+        display: none;
+    }
+
+    #Gallery{
+        margin-top: 175px;
+    }
+
+    #gallery-h1{
+        left: 50px;
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    .Gallery{
+        left: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #me3{
+        left: 50px;
+    }
+
+    #p-h1{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -100px;
+    }
+
+    #flex{
+        flex-direction: column;
+    }
+
+    #Game{
+        position: relative;
+        left: 50px;
+    }
+
+    #Shop{
+        position: relative;
+        left: 50px;
+    }
+
+    #Yt{
+        position: relative;
+        left: 50px;
+        top: 15px;
+    }
+
+    #contact{
+        margin-top: 150px;
+        position: relative;
+        left: 25px;
+    }
+
+    #contact h1{
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        width: 300px;
+        height: 35px;
+        padding: 15px;
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    input[type="submit"]{
+        border-top: 4px;
+        border-bottom: 4px;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    #anchor{
+        left: 150px;
+    }
+
+    #fb{
+        left: 25px;
+    }
+
+    #git-img{
+        left: 50px;
+    }
+
+    #par{
+        left: 100px;
+    }
+}
+
+@media (max-width: 320px){
+    header{
+        background-image: linear-gradient(140deg,
+         black 0%,
+         black 50%,
+         rgba(94, 94, 94, 0) 100%,
+        );
+        width: 100%;
+    }
+
+    #dropdown{
+        display: inline-block;
+        position: relative;
+        left: 300px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 15px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -300px;
+        min-width: 320px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    #mobile-img{
+        display: inline-block;
+        bottom: 50px;
+        width: 320px;
+    }
+
+    #myimg{
+        display: none;
+    }
+
+    .header{
+        position: relative;
+        color: white;
+        left: 150px;
+        top: 25px;
+        font-size: 1em;
+    }
+    
+    .Future{
+        position: relative;
+        top: 25px;
+        left: 150px;
+        font-size: 0.8em;
+    }
+    
+    #gita{
+        position: relative;
+        top: 25px;
+        left: 150px;
+    }
+    
+    #git{
+        width: 75px;
+        height: 50px;
+    }
+    
+    #sect-me{
+        position: relative;
+        left: 150px;
+        margin-top: 100px;
+        width: 325px;
+    }
+
+    #about{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -122px;
+    }
+
+    .about-paragraph{
+        font-size: 0.6em;
+        top: 50px;
+        left: -145px;
+    }
+
+    #lange{
+        font-size: 1em;
+        left: -125px;
+        padding: 15px 35px;
+    }
+
+    #me{
+        display: none;
+    }
+
+    #Using{
+        left: -125px;
+    }
+
+    #figma, #figma-img{
+        display: none;
+    }
+
+    #html-img{
+        left: -110px;
+    }
+
+    .html{
+        left: -190px;
+    }
+
+    #css-img{
+        left: -270px;
+        top: 145px;
+    }
+
+    #css{
+        left: -345px;
+        top: 150px;
+    }
+
+    #py-img{
+        display: none;
+    }
+
+    #py{
+        display: none;
+    }
+    
+
+    #learn{
+        display: none;
+    }
+
+    #js{
+        display: none;
+    }
+
+    #js-img{
+        display: none;
+    }
+
+    #Gallery{
+        margin-top: 150px;
+    }
+
+    #gallery-h1{
+        left: 25px;
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    .Gallery{
+        left: 25px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #me3{
+        left: 25px;
+    }
+
+    #p-h1{
+        font-size: 1em;
+        padding: 15px 35px;
+        left: -125px;
+    }
+
+    #flex{
+        flex-direction: column;
+    }
+
+    #Game{
+        position: relative;
+        left: 25px;
+    }
+
+    #Shop{
+        position: relative;
+        left: 25px;
+    }
+
+    #Yt{
+        position: relative;
+        left: 25px;
+        top: 15px;
+    }
+
+    #contact{
+        margin-top: 50px;
+        position: relative;
+        left: 25px;
+    }
+
+    #contact h1{
+        font-size: 1em;
+        padding: 15px 35px;
+    }
+
+    input[type="text"]::placeholder, 
+    input[type="email"]::placeholder, 
+    input[type="tel"]::placeholder, 
+    textarea::placeholder{
+        color: #2A2B2E;
+    }
+
+    input[type="text"], 
+    input[type="email"], 
+    input[type="tel"]{
+        width: 300px;
+        height: 35px;
+        padding: 15px;
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    input[type="submit"]{
+        border-top: 4px;
+        border-bottom: 4px;
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    #anchor{
+        left: 125px;
+    }
+
+    #git-img{
+        left: 25px;
+    }
+
+    #par{
+        left: 76px;
+    }
+}
