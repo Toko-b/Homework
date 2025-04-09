@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#parent-div{
+    width: 1110px;
+    margin-left: 165px;
+}
+
+.Collections{
+    display: flex;
+    width: 705px;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-2{
+    width: 405px;
+    position: absolute;
+    left: 1100px;
+    top: 25px;
+}
+
+#avatar{
+    margin-left: 50px;
+    height: 35px;
+    width: 35px;
+}
+
+#cart{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -10px;
+}
+
+#mob{
+    display: none;
+}
+
+#t-1{
+    width: 445px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-left: 215px;
+}
+
+#div-3{
+    position: relative;
+    left: 750px;
+    bottom: 400px;
+}
+
+#sneakers{
+    color: hsl(220, 4%, 51%);
+    font-size: 0.9em;
+}
+
+#Fall{
+    font-size: 2.8em;
+}
+
+#these{
+    margin-top: 50px;
+    color: hsl(223, 3%, 40%);
+}
+
+.h-2{
+    margin-top: 35px;
+}
+
+#percent{
+    position: relative;
+    left: 100px;
+    top: -25px;
+    width: 40px;
+    font-size: 1.1em;
+    background-color: hsl(227, 12%, 14%);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#dolla{
+    position: relative;
+    top: -20px;
+    text-decoration: line-through;
+    color: hsl(220, 4%, 51%);
+    margin-bottom: 25px;
+}
+
+#div-4{
+    background-color: hsl(230, 60%, 98%);
+    width: 170px;
+    height: 65px;
+    position: relative;
+    left: 750px;
+    bottom: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#div-4 p{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#div-4 button{
+    background-color: transparent;
+    border: none;
+}
+
+#cart-2{
+    position: relative;
+    left: 950px;
+    bottom: 520px;
+    height: 65px;
+    width: 270px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    font-size: 1.3em;
+}
+
+#div-5{
+    position: relative;
+    top: -400px;
+    left: -50px;
+    display: inline-block;
+}
+
+#div-5 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#product-1{
+    opacity: 0.5;
+    border: 2px solid hsl(26, 100%, 55%);
+}
+
+.mobile{
+    display: none;
+}
+
+#mob-2{
+    display: none;
+}
+
+
+
+@media (max-width: 375px) {
+    body{
+        display: grid;
+        grid-template-rows: 70px;
+    }
+
+    #div-5 img, .Collections, .hr, #t-1, #div-3, #div-4, #cart-2{
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+        position: relative;
+        top: 25px;
+        left: 25px;
+    }
+
+    .div-2{
+        left: 235px;
+    }
+
+    #avatar{
+        margin-left: 25px;
+    }
+
+    #mob{
+        height: 295px;
+        width: 375px;
+        display: inline-block;
+    }
+
+    #t-2{
+        height: 295px;
+        width: 375px;
+        background-size: cover;
+    }
+
+    #prev{
+        position: relative;
+        top: -175px;
+        left: 15px;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #next{
+        position: relative;
+        top: -175px;
+        left: 265px;
+        border: none;
+        background-color: white;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    #parent-div{
+        width: 375px;
+        margin: 0;
+    }
+
+    #mob-2{
+        display: inline-block;
+    }
+
+    #sneakers-1{
+        color: hsl(220, 4%, 51%);
+        font-size: 0.8em;
+        position: relative;
+        top: -20px;
+        left: 25px;
+    }
+
+    #Fall-1{
+        position: relative;
+        top: -10px;
+        left: 25px;
+        font-size: 1.6em;
+    }
+
+    #these-1{
+        color: hsl(223, 3%, 40%);
+        font-size: 0.8em;
+        position: relative;
+        top: 10px;
+        left: 25px;
+    }
+
+    .h-3{
+        position: relative;
+        left: 25px;
+        top: 40px;
+    }
+
+    #percent-1{
+        position: relative;
+        left: 120px;
+        top: 15px;
+        width: 40px;
+        font-size: 1.1em;
+        background-color: hsl(227, 12%, 14%);
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #dolla-1{
+        position: relative;
+        left: 240px;
+        text-decoration: line-through;
+        color: hsl(220, 4%, 51%);
+        top: -5px;
+    }
+
+    #div-6{
+        background-color: hsl(230, 60%, 98%);
+        width: 305px;
+        height: 65px;
+        margin-left: 25px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    #div-6 p{
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    #div-6 button{
+        background-color: transparent;
+        border: none;
+    }
+
+    #cart-3{
+        position: relative;
+        left: 25px;
+        top: 25px;
+        height: 65px;
+        width: 305px;
+        border: none;
+        background-color: hsl(26, 100%, 55%);
+        font-size: 1em;
+        border-radius: 10px;
+    }
+}

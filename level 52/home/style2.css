@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/bg-pattern-desktop.svg);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+main{
+    display: inline-block;
+    height: 810px;
+    width: 830px;
+    position: relative;
+    bottom: 100px;
+}
+
+main img{
+    width: 150px;
+    margin-left: 165px;
+    margin-top: 65px;
+}
+
+main h1{
+    margin-top: 150px;
+    margin-left: 165px;
+    font-size: 3.5em;
+    letter-spacing: 25px;
+}
+
+main h1 span{
+    color: hsl(357, 28%, 69%);
+}
+
+main p{
+    margin-top: 50px;
+    margin-left: 165px;
+    color: hsl(357, 28%, 69%);
+    line-height: 2;
+}
+
+.div-1{
+    background-image: url(imgs/hero-desktop.jpg);
+    width: 610px;
+    height: 800px;
+    display: inline-block;
+}
+
+input{
+    width: 345px;
+    height: 55px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-left: 165px;
+}
+
+input::placeholder{
+    padding: 25px;
+}
+
+button{
+    position: relative;
+    top: 6px;
+    width: 100px;
+    height: 55px;
+    font-size: 2em;
+    left: -65px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(0, 81%, 84%), hsl(0, 74%, 76%));
+    box-shadow: 5px 2px 15px hsl(0, 74%, 76%);
+    transition: 0.8s;
+    color: white;
+}
+
+button:active{
+    background-image: linear-gradient(to right, hsl(358, 80%, 92%), hsl(0, 74%, 88%));
+    box-shadow: hsl(358, 80%, 92%);
+}
+
+@media (max-width: 375px) {
+    body{
+        display: grid;
+        grid-template-rows: 85px 250px 465px;
+    }
+
+
+    main img{
+        margin-top: 125px;
+        margin-left: 35px;
+    }
+
+
+    main h1{
+       position: relative;
+       top: 150px;
+       left: -300px;
+       font-size: 2.5em;
+       text-align: center;
+    }
+
+    main p{
+        text-align: center;
+        position: relative;
+        top: 100px;
+        left: -300px;
+        line-height: 1.5;
+        font-size: 0.8em;
+    }
+
+    input{
+        width: 275px;
+        position: relative;
+        top: 100px;
+        left: -125px
+    }
+
+    button{
+        position: relative;
+        top: 106px;
+        left: -200px;
+        width: 75px;
+    }
+    .div-1{
+        background-image: url(imgs/hero-mobile.jpg);
+        background-repeat: no-repeat;
+    }
+}
