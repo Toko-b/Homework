@@ -1,21 +1,21 @@
-// let sum = 0;
+let sum = 0;
 
-// for(let i = 1; i < 11; i++){
-//     sum += i;
-// }
+for(let i = 1; i < 11; i++){
+    sum += i;
+}
 
-// console.log(sum);
+console.log(sum);
 
 
-// for(let x = 1; x < 11; x++){
-//     console.log(x**2);
-// }
+for(let x = 1; x < 11; x++){
+    console.log(x**2);
+}
 
-// let input = prompt("enter a word");
+let input = prompt("enter a word");
 
-// for(let i = 0; i < input.length; i++){
-//     console.log(input[i])
-// }
+for(let i = 0; i < input.length; i++){
+    console.log(input[i])
+}
 
 let a = "Fizz";
 let b = "Buzz";
