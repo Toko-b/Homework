@@ -1,30 +1,30 @@
-// let book = {
-//     bookName: 'The lord of the rings',
-//     bookAuthor: 'John Ronald Reuel Tolkien',
-//     bookReleaseDate: '1954',
-//     bookGenre: {
-//         genre1: 'High fantasy',
-//         genre2: 'Adventure'
-//     },
-//     bookPrice: '$35.00'
-// }
+let book = {
+    bookName: 'The lord of the rings',
+    bookAuthor: 'John Ronald Reuel Tolkien',
+    bookReleaseDate: '1954',
+    bookGenre: {
+        genre1: 'High fantasy',
+        genre2: 'Adventure'
+    },
+    bookPrice: '$35.00'
+}
 
-// console.log(book.bookName); 
-// console.log(book.bookAuthor); 
-// console.log(book.bookReleaseDate); 
-// console.log(book.bookGenre.genre1); 
-// console.log(book.bookGenre.genre2); 
-// console.log(book.bookPrice); 
+console.log(book.bookName); 
+console.log(book.bookAuthor); 
+console.log(book.bookReleaseDate); 
+console.log(book.bookGenre.genre1); 
+console.log(book.bookGenre.genre2); 
+console.log(book.bookPrice); 
 
-// console.log(book["bookName"]); 
-// console.log(book["bookAuthor"]); 
-// console.log(book["bookGenre"]["genre1"]); 
-// console.log(book["bookGenre"]["genre2"]); 
-// console.log(book["bookPrice"]); 
+console.log(book["bookName"]); 
+console.log(book["bookAuthor"]); 
+console.log(book["bookGenre"]["genre1"]); 
+console.log(book["bookGenre"]["genre2"]); 
+console.log(book["bookPrice"]); 
 
-// console.log(`The book name is ${book.bookName}, the books author is ${book.bookAuthor} and the book was released in ${book.bookReleaseDate}. ${book.bookName}'s genre is ${book.bookGenre.genre1} and ${book.bookGenre.genre2}. On amazon book costs ${book.bookPrice}.`);
+console.log(`The book name is ${book.bookName}, the books author is ${book.bookAuthor} and the book was released in ${book.bookReleaseDate}. ${book.bookName}'s genre is ${book.bookGenre.genre1} and ${book.bookGenre.genre2}. On amazon book costs ${book.bookPrice}.`);
 
-// console.log(`The book name is ${book["bookName"]}, the books author is ${book["bookAuthor"]} and the book was released in ${book["bookReleaseDate"]}. ${book["bookName"]}'s genre is ${book["bookGenre"]["genre1"]} and ${book["bookGenre"]["genre2"]}. On amazon book costs ${book["bookPrice"]}.`);
+console.log(`The book name is ${book["bookName"]}, the books author is ${book["bookAuthor"]} and the book was released in ${book["bookReleaseDate"]}. ${book["bookName"]}'s genre is ${book["bookGenre"]["genre1"]} and ${book["bookGenre"]["genre2"]}. On amazon book costs ${book["bookPrice"]}.`);
 
 
 let students = {
