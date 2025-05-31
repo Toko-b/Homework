@@ -1,0 +1,1801 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Quattrocento Sans', sans-seriff;
+}
+
+h2,h3,h1,h4,h5,h6{
+    font-family: "Arvo" serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.second-a, #dropdown{
+    display: none;
+}
+
+
+header .header-a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #FFF0D2;
+    font-weight: bold;
+}
+
+header #flex-div{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    row-gap: 10px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+
+#day{
+    color: #FFF0D2;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
+
+#join-btn{
+    background-color: #cb7438;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 125px;
+    transition: 0.25s;
+    cursor: pointer;
+    position: relative;
+    left: 800px;
+    top: 515px;
+}
+
+#join-btn:hover{
+    background-color: #e98540;
+}
+
+#div-1{
+    background-image: url(imgs/main1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 890px;
+    width: 100%;
+}
+
+#div-2{
+    position: absolute;
+    left: 0;
+    background-color: #774258;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 23px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    width: 375px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+
+input[type=text]::placeholder{
+    padding-left: 10px;
+}
+
+input[type=submit]{
+    width: 280px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cb7438;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #e98540;
+}
+
+#border-dot{
+    margin-top: 100px;
+    position: relative;
+    top: 280px;
+    margin-left: 98px;
+}
+
+#div-3{
+    position: relative;
+    top: 300px;
+}
+
+#div-3 h2{
+    text-align: center;
+    color: #a32e53;
+    font-size: 50px;
+}
+
+
+.first-img{
+    margin: 1rem 30px 1rem 360px;
+}
+
+.second-img{
+    margin: 1rem 0;
+}
+
+#img-7{
+    margin-left: 650px;
+}
+
+.first-a{
+    margin-left: 560px;
+    margin-right: 410px;
+}
+
+.challanges{
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.challanges:hover{
+    filter: brightness(120%);
+}
+
+.last-btn{
+    margin-left: 850px;
+}
+
+.learn-btn{
+    width: min(165px, 90%);
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #cb7438;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.learn-btn:hover{
+    background-color: #e98540;
+}
+
+#border-dot-2{
+    position: relative;
+    top: 280px;
+    margin-top: 60px;
+    width: 1000px;
+    margin-left: 460px;
+}
+
+#join-h2{
+    font-size: 40px;
+    color: #cb7438;
+    margin: 16px 0;
+}
+
+#div-4{
+    position: relative;
+    top: 300px;
+    margin-top: 60px;
+    text-align: center;
+    width: 1100px;
+    left: 356px;
+}
+
+#coach{
+    background-color: #cb7438;
+    color: white;
+    border: none;
+    width: 405px;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#coach:hover{
+    background-color: #e98540;
+}
+
+#border-dot-3{
+    width: 1500px;
+    position: relative;
+    top: 395px;
+    left: 200px;
+}
+
+#div-5{
+    background-image: url(imgs/10002.jpg);
+    margin: 100px 0;
+    width: 100%;
+    height: 777px;
+    position: relative;
+    background-size: cover;
+    top: 345px;
+}
+
+#container{
+    background-image: url(imgs/10001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 601px;
+    height: 734px;
+    position: relative;
+    left: 456px;
+}
+
+.un-list{
+    list-style-image: url(imgs/10001\ \(1\).png);
+    color: white;
+    width: 450px;
+    margin-left: 59px;
+}
+
+#div-6{
+    position: relative;
+    margin-bottom: 100px;
+    top: 350px;
+    text-align: center;
+    width: 1100px;
+    left: 356px;
+}
+
+#div6-h2{
+    font-size: 45px;
+    color: #c27040;
+}
+
+#div6-p{
+    font-size: 20px;
+    line-height: 32px;
+    width: 950px;
+    margin-left: 65px;
+}
+
+#div-7{
+    position: relative;
+    width: 1400px;
+    top: 240px;
+    left: 370px;
+    margin-top: 47px;
+}
+
+#div-7 hr{
+    width: 1120px; 
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-bottom: 75px;
+}
+
+#Bali{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 32px; 
+    margin-top: 16px;
+}
+
+#st{
+    display: inline-block; 
+    margin-left: 40px; 
+    font-size: 20px; 
+    line-height: 32px;
+}
+
+#Bali-h3{
+    display: inline-block;
+    font-size: 24px; 
+    margin: 16px 0;
+    color: #783f59;
+}
+
+#Lucia-h3{
+    display: inline-block; 
+    margin-left: 250px; 
+    font-size: 24px; 
+    margin-bottom: 16px;
+    color: #783f59;
+}
+
+#Bali-p, #st-p, .book-2, #Lucia-h3-res, #Bali-h3-res, .Terms-services-2{
+    display: none;
+}
+
+
+.vacation{
+    width: 545px;
+    height: 421px;
+    margin: 5px 0;
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+#vacation-Lucia{
+    margin-left: 30px;
+}
+
+.vacation:hover{
+    filter: brightness(120%);
+}
+
+.book{
+    background-color: #cb7438;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.book:hover{
+    background-color: #e98540;
+}
+
+#div-8{
+    background-color: #68ae8d;
+    width: 100%;
+    height: 320px;
+    padding: 44px 0;
+    position: absolute;
+    left: 0;
+    top: 6348px;
+    margin-top: 200px;
+}
+
+#div8-h3{
+    color: white; 
+    font-size: 28px; 
+    margin-left: 644px; 
+    display: inline-block;
+    margin-top: 16px; 
+    margin-bottom: 16px;
+}
+
+#div8-p{
+    color: white; 
+    margin-left: 752px; 
+    font-size: 24px; 
+    margin-top: 16px; 
+    margin-bottom: 16px;
+    display: inline;
+}
+
+#sub-text{
+    margin-left: 430px;
+}
+
+#line{
+    height: 100px; 
+    border-left: 1px solid white; 
+    position: relative; 
+    left: 930px; 
+    top: -265px; 
+    width: 1px;
+}
+
+#div-9{
+    position: absolute;
+    top: 6765px;
+    background-color: #783F59;
+    height: 490px;
+    width: 100%;
+    left: 0;
+    margin-top: 83px;
+}
+
+.Terms{
+    width: min(365px, 90%);
+    height: 30px;
+    border: white 1px solid;
+    color: white;
+    background-color: transparent;
+    border-radius: 15px;
+    position: relative;
+    top: -100px;
+    left: 530px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#sub-div-4{
+    display: flex;
+    flex-direction: column;
+}
+
+#white-logo{
+    width: 260px;
+    height: 91px;
+    margin-top: 90px;
+    margin-left: 195px;
+}
+
+#tree{
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+}
+
+.Terms:hover{
+    background-color: white;
+    color: black;
+}
+
+.icons{
+    position: relative;
+    left: 1250px;
+    bottom: 345px;
+}
+
+.Terms-services{
+    color: #ffe9cb;
+}
+
+.Terms-services:hover{
+    color: white;
+}
+
+@media (max-width: 475px){
+
+    header #dropdown{
+        display: inline-block;
+        position: relative;
+        top: -120px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        right: 150px;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -400px;
+        min-width: 425px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    header{
+        background-color: rgba(52, 46, 55, 0.5)
+    }
+
+    #div-1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 890px;
+        width: 100%;
+    }
+
+    #div-1 button{
+        left: 0;
+        top: 515px;
+    }
+
+    #div-2{
+        width: 100%;
+        height: 440px;
+    }
+
+    #sub-div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+    }
+
+    #div-2 h3{
+        font-size: 23px;
+    }
+
+    #div-2 #sub-div-2 input[type=text],#div-2 #sub-div-2 input[type=submit]{
+        width: min(400px, 85%);
+    }
+
+    #border-dot{
+        margin-top: 175px;
+        left: -100px;
+        width: 100%;
+    }
+
+    #div-3{
+        text-align: center;
+    }
+
+    #div-3 .first-img.challanges{
+        display: block;
+        width: min(390px, 90%);
+        height: min(220px, 90%);
+        margin: 9vw 43px;
+    }
+
+    #div-3 .second-img{
+        width: min(390px, 90%);
+        height: min(220px, 90%);
+        margin: 9vw 43px;
+    }
+
+    #div-3 #img-7{
+        width: min(390px, 90%);
+        height: min(220px, 90%);
+        margin: 9vw 30px;
+    }
+
+    #div-3 .second-a{
+        display: block;
+    }
+
+    #div-3 .learn-btn-2, #div-3 .last-btn-2{
+        width: min(415px, 85%);
+    }
+
+    #div-3 .last-btn-2{
+        margin-left: 9vw;
+    }
+
+    .none, #terms-2{
+        display: none;
+    }
+
+    #border-dot-2{
+        margin: 0;
+        margin-top: 60px;
+        left: 0;
+    }
+
+    #div-4{
+        position: relative;
+        top: 90;
+        text-align: center;
+        width: 100%;
+        left: 0;
+    }
+
+    #div-4 #iframe{
+        width: min(390px, 90%);
+        height: min(320px, 90%);
+    }
+
+    #div-4 #coach{
+        width: min(400px, 90%);
+        margin: 40px 0 10px 0;
+    }
+
+    #border-dot-3{
+        width: 100%;
+        left: 0;
+    }
+
+    body #div-5{
+        background-image: url(imgs/10002.jpg);
+        margin: 100px 0;
+        width: 100%;
+        height: 870px;
+        position: relative;
+        background-size: cover;
+        top: 345px;
+        background-position: center;
+    }
+
+    #div-5 #container{
+        width: min(456px, 90%);
+        height: 1090px;
+        left: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    body #div-5 #container .container-p, body #div-5 #container .un-list{
+        font-size: 0.7rem;
+    }
+
+    body #div-6{
+        position: relative;
+        margin-bottom: 100px;
+        top: 350px;
+        text-align: center;
+        width: 707px;
+        left: 30px;
+    }
+
+    body #div-6 #div6-h2{
+        width: min(415px, 85%);
+    }
+
+    body #div-6 #div6-p{
+        font-size: 15px;
+        width: min(415px, 85%);
+        margin-left: 0;
+        line-height: 28px;
+    }
+
+    #div-7{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 707px;
+        top: 240px;
+        left: 30px;
+        margin-top: 47px;
+    }
+
+    #Bali, #st, #Bali-h3, #Lucia-h3, .book, .Terms-services, .last-btn{
+        display: none;
+    }
+
+    #div-7 #vacation-Bali, #div-7 #vacation-Lucia{
+        height: min(320px, 90%);
+        width: min(415px, 90%);
+    }
+
+    #vacation-Lucia{
+        margin-left: 0;
+    }
+
+    #div-7 a{
+        width: min(455px, 90%);
+    }
+
+    #div-7 .book-2{
+        display: inline-block;
+        width: min(415px, 90%);
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 16px 0;
+    }
+
+    #Bali-h3-res{
+        display: inline-block;
+        color: #783f59;
+    }
+
+    body #div-7 hr{
+        width: min(415px, 90%);
+    }
+
+    #div-7 #Bali-p, #div-7 #st-p{
+        display: inline-block;
+        font-size: 15px;
+        line-height: 32px; 
+        margin-top: 16px;
+        width: min(440px, 85%);
+    }
+
+    body #div-8{
+        position: absolute;
+        width: 100%;
+        top: 7640px;
+        margin-top: 200px;
+        height: 455px;
+        padding: 0;
+    }
+
+    body #div-8 #div8-h3{
+        color: white; 
+        font-size: clamp(0.8rem, calc(7vw + 0.3rem), 1.5rem); 
+        width: min(707px, 85%);
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    body #div-8 #div8-p{
+        margin-left: min(200px, 30%); 
+        font-size: clamp(0.8rem, 10vw, 1.5rem);
+        display: inline;
+    }
+
+    #sub-div-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+    }
+
+    #sub-text{
+        margin-left: 0;
+    }
+
+    body #sub-div-3 input[type=text], body #sub-div-3 input[type=submit]{
+        width: min(415px, 90%);
+    }
+
+    body #div-9{
+        position: sticky;
+        top: 5000px;
+        height: 812px;
+        width: 100%;
+    }
+
+    #sub-div-4{
+        position: relative;
+        top: 150px;
+        left: -325px; 
+    }
+
+    body #div-9 #white-logo{
+        display: inline-block;
+        margin-left: 115px;
+    }
+
+    body #div-9 #tree{
+        bottom: 450px;
+        left: 85px;
+    }
+
+    body #div-9 .Terms{
+        width: min(283px, 85%);
+        top: 64px;
+        left: 445px;
+        text-align: center;
+    }
+
+    body #div-9 #line{
+        width: min(423px, 90%); 
+        border-bottom: 1px solid white; 
+        left: 367px; 
+        top: 100px; 
+        height: 1px;
+    }
+
+    body #div-9 .icons{
+        left: 140px;
+        bottom: -303px;
+    }
+
+    body #div-9 .Terms-services-2{
+        display: flex;
+        color: white;
+        font-weight: 500;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 640px){
+
+    header #dropdown{
+        display: inline-block;
+        position: relative;
+        left: 400px;
+        top: -120px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -400px;
+        min-width: 425px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    header{
+        background-color: rgba(52, 46, 55, 0.5)
+    }
+
+    body #div-1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1080px;
+        width: 100%;
+    }
+
+    #div-1 #join-btn{
+        left: 200px;
+        top: 515px;
+    }
+
+    #div-1 #day{
+        font-size: 21px;
+    }
+
+    #div-2{
+        width: 100%;
+        height: 440px;
+    }
+
+    #sub-div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+    }
+
+    #div-2 h3{
+        font-size: 23px;
+    }
+
+    #div-2 #sub-div-2 input[type=text],#div-2 #sub-div-2 input[type=submit]{
+        width: min(578px, 85%);
+    }
+
+    #border-dot{
+        margin-top: 175px;
+        left: -100px;
+        width: 100%;
+    }
+
+    #div-3{
+        text-align: center;
+    }
+
+    #div-3 .first-img.challanges{
+        display: block;
+        width: min(580px, 90%);
+        height: min(326px, 90%);
+        margin: 9vw 32px;
+
+    }
+
+    #div-3 .second-img{
+        width: min(580px, 90%);
+        height: min(326px, 90%);
+        margin: 9vw 32px;
+    }
+
+    #div-3 #img-7{
+        width: min(580px, 90%);
+        height: min(326px, 90%);
+        margin: 9vw 32px;
+    }
+
+    .second-a{
+        display: block;
+    }
+
+    #div-3 .learn-btn-2, #div-3 .last-btn-2{
+        width: min(578px, 90%);
+    }
+
+    .last-btn-2{
+        margin-left: 8vw;
+    }
+
+    .none, #terms-2{
+        display: none;
+    }
+
+    body #border-dot-2{
+        width: min(578px, 90%);
+        margin: 0;
+        margin-top: 60px;
+        left: 35px;
+    }
+
+    #div-4{
+        position: relative;
+        top: 90;
+        text-align: center;
+        width: 100%;
+        left: 0;
+    }
+
+    #div-4 #iframe{
+        width: min(580px, 90%);
+        height: min(326px, 90%);
+    }
+
+    #div-4 #coach{
+        width: min(578px, 90%);
+        margin: 40px 0 10px 0;
+    }
+
+    #border-dot-3{
+        width: 100%;
+        left: 0;
+    }
+
+    #div-5{
+        background-image: url(imgs/10002.jpg);
+        margin: 100px 0;
+        width: 100%;
+        height: 670px;
+        position: relative;
+        background-size: cover;
+        top: 345px;
+        background-position: center;
+    }
+
+    #div-5 #container{
+        width: 90%;
+        height: 650px;
+        left: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #div-5 #container .container-p, #div-5 #container .un-list{
+        font-size: 0.8rem;
+    }
+
+    #div-6{
+        position: relative;
+        margin-bottom: 100px;
+        top: 350px;
+        text-align: center;
+        width: 707px;
+        left: 30px;
+    }
+
+    #div-6 #div6-h2{
+        width: min(580px, 85%);
+    }
+
+    #div-6 #div6-p{
+        font-size: 20px;
+        width: min(580px, 85%);
+        margin-left: 0;
+        line-height: 28px;
+    }
+
+    #div-7{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 707px;
+        top: 240px;
+        left: 30px;
+        margin-top: 47px;
+    }
+
+    #Bali, #st, #Bali-h3, #Lucia-h3, .book, .Terms-services, .last-btn{
+        display: none;
+    }
+
+    #div-7 #vacation-Bali,#div-7 #vacation-Lucia{
+        height: min(448px, 90%);
+        width: min(580px, 90%);
+    }
+
+    #vacation-Lucia{
+        margin-left: 0;
+    }
+
+    #div-7 .book-2{
+        display: inline-block;
+        width: min(580px, 90%);
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 16px 0;
+    }
+
+    #Bali-h3-res{
+        display: inline-block;
+        color: #783f59;
+    }
+
+    #div-7 hr{
+        width: min(415px, 90%);
+    }
+
+    #Bali-p, #st-p{
+        display: inline-block;
+        font-size: 20px;
+        line-height: 32px; 
+        margin-top: 16px;
+        width: min(580px, 85%);
+    }
+
+    body #div-8{
+        position: sticky;
+        width: 100%;
+        top: 8657px;
+        margin-top: 200px;
+        height: 325px;
+    }
+
+    #div8-h3{
+        color: white; 
+        font-size: clamp(0.8rem, calc(7vw + 0.3rem), 1.5rem); 
+        width: min(707px, 85%);
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    #div-8 #div8-p{
+        margin-left: min(200px, 30%); 
+        font-size: clamp(0.8rem, 10vw, 1.5rem);
+        display: inline;
+    }
+
+    #sub-div-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+    }
+
+    #sub-text{
+        margin-left: 0;
+    }
+
+    body #div-9{
+        position: absolute;
+        top: 9385px;
+        height: 825px;
+        width: 100%;
+    }
+
+    #sub-div-4{
+        position: relative;
+        top: 150px;
+        left: -325px;
+    }
+
+    #div-9 #white-logo{
+        display: inline-block;
+        margin-left: 200px;
+    }
+
+    #div-9 #tree{
+        bottom: 450px;
+        left: 170px;
+    }
+
+    #div-9 .Terms{
+        width: min(283px, 85%);
+        top: 64px;
+        left: 515px;
+        text-align: center;
+    }
+
+    #div-9 #line{
+        width: min(570px, 90%); 
+        border-bottom: 1px solid white; 
+        left: 367px; 
+        top: 100px; 
+        height: 1px;
+    }
+
+    #div-9 .icons{
+        left: 200px;
+        bottom: -303px;
+    }
+
+    #div-9 .Terms-services-2{
+        display: flex;
+        color: white;
+        font-weight: 500;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px){
+
+    #dropdown{
+        display: inline-block;
+        position: relative;
+        left: 550px;
+        top: -120px;
+        transition: all 1s;
+    }
+
+    #dropdown button{
+        border: none;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    #dropdown a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 25px 0px;
+        transition: all 1s;
+    }
+
+    #dropdown-content{
+        display: none;
+        background-color: rgba(52, 46, 55, 0.5);
+        position: absolute;
+        left: -400px;
+        min-width: 425px;
+    }
+
+    #dropdown:hover #dropdown-content{
+        display: block;
+    }
+
+    #dropdown a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    header{
+        background-color: rgba(52, 46, 55, 0.5)
+    }
+
+    #div-1 #flex-div{
+        display: none;
+    }
+
+    #div-1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 890px;
+        width: 100%;
+    }
+    #div-1 #join-btn{
+        width: 240px;
+        height: 40px;
+        border-radius: 125px;
+        transition: 0.25s;
+        cursor: pointer;
+        position: relative;
+        left: 165px;
+        top: 515px;
+    }
+    body #div-2{
+        width: 100%;
+        height: 380px;
+    }
+
+    #div-2 #sub-div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+        position: relative;
+        left: 0;
+    }
+
+    #div-2 #sub-div-2 input[type=text],#div-2 #sub-div-2 input[type=submit]{
+        width: min(707px, 90%);
+    }
+
+    #border-dot{
+        margin-top: 175px;
+        left: -100px;
+        width: 100%;
+    }
+
+    #div-3{
+        text-align: center;
+    }
+
+    .first-img .challanges{
+        display: block;
+        width: min(707px, 90%);
+        height: 400px;
+        margin: 1rem 30px;
+    }
+
+    #div-3 .second-img{
+        width: 707px;
+        height: 400px;
+    }
+
+    #div-3 #img-7{
+        width: 707px;
+        height: 400px;
+        margin: 1rem 30px;
+    }
+
+    #div-3 .second-a{
+        display: block;
+    }
+
+    #div-3 .learn-btn-2, #div-3 .last-btn-2{
+        display: block;
+        width: 707px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        cursor: pointer;
+        position: relative;
+        left: 30px;
+    }
+
+    .last-btn-2{
+        margin-left: 30px;
+    }
+
+    .none, #terms-2{
+        display: none;
+    }
+
+    img #border-dot-2{
+        margin-top: 60px;
+        margin: 0;
+    }
+
+    #div-4{
+        position: relative;
+        top: 90;
+        text-align: center;
+        width: 100%;
+        left: 0;
+    }
+
+    #iframe{
+        width: 707px;
+        height: 400px;
+    }
+
+    #coach{
+        width: 707px;
+        margin: 40px 0 10px 0;
+    }
+
+    #border-dot-3{
+        width: 100%;
+        left: 0;
+    }
+
+    #div-5{
+        background-image: url(imgs/10002.jpg);
+        margin: 100px 0;
+        width: 100%;
+        height: 812px;
+        position: relative;
+        background-size: cover;
+        top: 345px;
+        background-position: center;
+    }
+
+    #container{
+        width: 737px;
+        height: 670px;
+        left: 15px;
+    }
+
+    #div-6{
+        position: relative;
+        margin-bottom: 100px;
+        top: 350px;
+        text-align: center;
+        width: 707px;
+        left: 30px;
+    }
+
+    #div6-p{
+        font-size: 15px;
+        width: 707px;
+        margin-left: 0;
+        line-height: 28px;
+    }
+
+    #div-7{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 707px;
+        top: 240px;
+        left: 30px;
+        margin-top: 47px;
+    }
+
+    #Bali, #st, #Bali-h3, #Lucia-h3, .book, .Terms-services, .last-btn{
+        display: none;
+    }
+
+    #vacation-Bali, #vacation-Lucia{
+        height: 576px;
+        width: 707px;
+    }
+
+    #vacation-Lucia{
+        margin-left: 0;
+    }
+
+    .book-2{
+        display: inline-block;
+        width: min(707px, 90%);
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 16px 0;
+    }
+
+    #Bali-h3-res{
+        display: inline-block;
+        color: #783f59;
+    }
+
+    #div-7 hr{
+        width: min(707px, 90%);
+    }
+
+    #Bali-p, #st-p{
+        display: inline-block;
+        font-size: clamp(0.7rem, clac(6vw + 0.2rem), 1.25rem);
+        line-height: 32px; 
+        margin-top: 16px;
+    }
+
+    #div-8{
+        width: 100%;
+        top: 9115px;
+        margin-top: 200px;
+    }
+
+    #div8-h3{
+        color: white; 
+        font-size: clamp(0.8rem, calc(7vw + 0.3rem), 1.5rem); 
+        width: min(707px, 85%);
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    #div8-p{
+        margin-left: min(200px, 30%); 
+        font-size: clamp(0.8rem, 10vw, 1.5rem);
+        width: min(707px, 85%); 
+        display: inline;
+    }
+
+    #sub-div-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2px;
+    }
+
+    #sub-text{
+        margin-left: 0;
+    }
+
+    #sub-div-3 input[type=text], #sub-div-3 input[type=submit]{
+        width: min(707px, 90%);
+    }
+
+    #div-9{
+        top: 9552px;
+        height: 700px;
+        width: 100%;
+    }
+
+    #sub-div-4{
+        position: relative;
+        top: 150px;
+        left: -325px;
+    }
+
+    #white-logo{
+        display: inline-block;
+        margin-left: 130px;
+    }
+
+    #tree{
+        bottom: 500px;
+        left: 380px;
+    }
+
+    #line{
+        width: 683px; 
+        border-bottom: 1px solid white; 
+        left: 367px; 
+        top: -50px; 
+        height: 1px;
+    }
+
+    .icons{
+        position: relative;
+        left: 276px;
+        bottom: -133px;
+    }
+
+    .Terms-services-2{
+        display: flex;
+        color: white;
+        font-weight: 500;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px){
+
+    #div-1 #flex-div{
+        right: 750px;
+    }
+
+    #div-1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 890px;
+        width: 100%;
+    }
+    #div-1 #join-btn{
+        width: min(235px, 90%);
+        height: 40px;
+        border-radius: 125px;
+        transition: 0.25s;
+        cursor: pointer;
+        position: relative;
+        left: 400px;
+        top: 515px;
+    }
+
+    #div-2{
+        width: 100%;
+        height: 350px;
+    }
+
+    #sub-div-2{
+        display: flex;
+        position: relative;
+        left: 50px;
+        column-gap: 8px;
+    }
+
+    #sub-div-2 input[type=text]{
+        width: min(320px, 90%);
+    }
+
+    #sub-div-2 input[type=submit]{
+        width: min(240px, 90%);
+    }
+
+    #border-dot{
+        margin-top: 175px;
+        left: -100px;
+        width: 100%;
+    }
+
+    .learn-btn-2, .last-btn-2{
+        display: none;
+    }
+
+    #div-3 .first-img.challanges{
+        display: inline-block;
+        width: min(467px, 90%);
+        height: min(263px, 90%);
+        margin-left: 30px;
+    }
+
+    #div-3 .second-img{
+        width: min(467px, 90%);
+        height: min(263px, 90%);
+        position: relative;
+    }
+
+    .learn-btn{
+        width: min(165px, 90%);
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    #div-3 #img-7{
+        width: min(467px, 90%);
+        height: min(263px, 90%);
+    }
+
+    body .first-a{
+        position: relative;
+        margin: 0 340px 0 180px;
+    }
+
+    body .second-a{
+        width: min(165px, 90%);
+    }
+
+    #div-3 #img-7{
+        margin-left: 280px;
+    }
+
+    #div-3 .last-btn{
+        margin-left: 430px;
+    }
+
+    body #border-dot-2{
+        width: min(828px, 90%);
+        margin-top: 60px;
+        margin-left: 120px;
+    }
+
+    #div-4{
+        position: relative;
+        top: 90;
+        text-align: center;
+        width: 100%;
+        left: 0;
+    }
+
+    #div-4 #coach{
+        width: min(400px, 90%);
+        margin: 40px 0 10px 0;
+    }
+
+    #border-dot-3{
+        width: 100%;
+        left: 0;
+    }
+
+    #div-5{
+        background-image: url(imgs/10002.jpg);
+        margin: 100px 0;
+        width: 100%;
+        height: 812px;
+        position: relative;
+        background-size: cover;
+        top: 345px;
+        background-position: center;
+    }
+
+    #container{
+        width: 737px;
+        height: 670px;
+        left: 15px;
+    }
+
+    body #div-6{
+        position: relative;
+        margin-bottom: 100px;
+        top: 350px;
+        text-align: center;
+        width: 90%;
+        left: 120px;
+    }
+
+    #div-6 #div6-h2{
+        width: min(800px, 85%);
+    }
+
+    #div-6 #div6-p{
+        font-size: 20px;
+        width: min(800px, 85%);
+        height: min(192px, 85%);
+        margin: 16px 0;
+        line-height: 28px;
+    }
+
+    #div-7{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        top: 240px;
+        left: 30px;
+        margin-top: 47px;
+    }
+
+    #Bali-p, #st-p, #Bali-h3-res, #Lucia-h3-res, .Terms-services-2, .book-2{
+        display: none;
+    }
+
+    #vacation-Bali, #vacation-Lucia{
+        height: min(360px, 90%);
+        width: min(467px, 90%);
+    }
+
+    #vacation-Lucia{
+        margin-left: 0;
+    }
+
+    #Lucia-h3{
+        margin-left: 150px;
+    }
+
+    .book{
+        display: inline-block;
+        width: min(160px, 90%);
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        border: none;
+        background-color: #cb7438;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 16px 0;
+    }
+
+    #div-7 hr{
+        width: min(964px, 90%);
+    }
+
+    #Bali, #st{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 32px; 
+        margin-top: 16px;
+        width: min(467px, 85%);
+        height: auto;
+    }
+
+    body #div-8{
+        width: 100%;
+        top: 6415px;
+        margin-top: 200px;
+    }
+
+    #div-8 #div8-h3{
+        color: white; 
+        font-size: clamp(0.8rem, calc(7vw + 0.3rem), 1.5rem); 
+        width: min(707px, 85%);
+        margin-left: 130px;
+        text-align: center;
+    }
+
+    #div-8 #div8-p{
+        margin-left: 300px; 
+        font-size: clamp(0.8rem, 10vw, 1.5rem);
+        width: min(707px, 85%); 
+        display: inline-block;
+    }
+
+    #div-8 #sub-div-3{
+        display: flex;
+        column-gap: 5px;
+        position: relative;
+        left: 67px;
+    }
+
+    #sub-text{
+        margin-left: 0;
+    }
+
+    #div-8 #sub-div-3 input[type=text]{
+        width: min(320px, 90%);
+        display: inline-block;
+    }
+
+    #div-8 #sub-div-3 input[type=submit]{
+        width: min(240px, 90%);
+        display: inline-block;
+    }
+
+    body #div-9{
+        top: 6850px;
+        height: 700px;
+        width: 100%;
+    }
+
+    #div-9 #sub-div-4{
+        position: relative;
+        top: 55px;
+    }
+
+    #div-9 #white-logo{
+        display: inline-block;
+        margin-left: 90px;
+    }
+
+    #div-9 #tree{
+        bottom: 300px;
+        left: 90px;
+    }
+
+    #div-9 #line{
+        height: 100px; 
+        border-left: 1px solid white; 
+        position: relative; 
+        left: 630px; 
+        top: -265px; 
+        width: 1px;
+    }
+
+    #sub-div-4 .Terms{
+        width: min(175px, 90%);
+        height: 30px;
+        border: white 1px solid;
+        color: white;
+        background-color: transparent;
+        border-radius: 15px;
+        position: relative;
+        top: -155px;
+        left: 425px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    #div-9 .icons{
+        position: relative;
+        left: 676px;
+        bottom: 200px;
+    }
+
+    #div-9 .Terms-services{
+        text-align: center;
+    }
+}
