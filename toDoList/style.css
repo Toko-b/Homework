@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main-div{
+    max-width: 475px;
+    width: 475px;
+}
+.header{
+    background-color: #f3cf9e;
+    padding: 15px;
+    height: 98px;
+    border: 1px solid #706e6b;
+}
+
+.header h1, .header p{
+    margin: 0;
+}
+
+#ul-div{
+    height: 442px;
+    padding: 15px;
+    border: 1px solid #706e6b;
+}
+
+#filter_div{
+    height: 30px;
+    padding: 10px 15px;
+    border: 1px solid #706e6b;
+    display: flex;
+    gap: 10px;
+}
+
+#filter_div button{
+    height: 30px;
+    border: 1px solid #706e6b;
+    padding: 5px 15px;
+}
+
+.todo-form{
+    border: 1px solid #706e6b;
+    height: 42px;
+    padding: 15px;
+}
+
+.todo-form #input{
+    max-width: 300px;
+    width: 300px;
+    height: 36px;
+    padding: 5px 15px;
+}
+
+.todo-form button{
+    max-width: 100px;
+    height: 50px;
+    padding: 5px 15px;
+    background-color: #f3cf9e;
+    border: 1px solid #706e6b;
+}
+
+@media (max-width: 457px){
+    .todo-form #input{
+        width: 265px;
+    }
+}
+
+@media (max-width: 376px){
+    .todo-form #input{
+        width: 225px;
+    }
+
+    .todo-form button{
+        width: 80px;
+    }
+}
+
+@media (max-width: 321px){
+    .todo-form #input{
+        max-width: 185px;
+        margin-bottom: 5px;
+    }
+
+    .todo-form button{
+        max-width: 60px;
+    }
+
+    #all-todo, #active-todo, #completed-todo{
+        height: 45px;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .color{background-color: #f3cf9e;}
+        .filter{background-color: #706e6b;}
+    </style>
+</head>
+<body>
+    <div id="main-div">
+        <header class="header">
+            <h1>Todo</h1>
+            <p>List your work that need to be done on time.</p>
+            <br>
+        </header>
+        <div id="ul-div">
+            <ul>
+
+            </ul>
+        </div>
+        <div id="filter_div">
+            <button id="all-todo" class="color">All Todo</button>
+            <button id="active-todo" class="color">Active Todo</button>
+            <button id="completed-todo" class="color">Completed Todo</button>
+        </div>
+        <form class="todo-form">
+            <input type="text" placeholder="add new todo" id="input">
+            <button id="submitBtn">Add Todo</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
