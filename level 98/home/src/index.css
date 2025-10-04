@@ -1,20 +1,7 @@
-.flex{
-  display: flex;
-  justify-content: space-evenly;
-}
+@import "tailwindcss";
 
-.Cars{
-  width: 400px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.text{
-  font-size: 1.15rem;
-  line-height: 1.35;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  word-spacing: 1.1;
-}
-
-.image{
-  width: 400px;
+@layer components {
+  .card {
+    box-shadow: 0px 0px 10px 2px black;
+  }
 }

@@ -5,11 +5,11 @@ import One from "./assets/One.jpg";
 export default function App() {
   return (
     <>
-      <div className="flex">
-        <div className="Cars">
-          <h1>BMW M3 F80 generation</h1>
-          <img src={Bmw} alt="" className="image" />
-          <p className="text">
+      <div className="flex justify-evenly h-screen gap-2 items-center">
+        <div className="w-[400px] card px-5 py-2 h-[700px]">
+          <h1 className="text-3xl">BMW M3 F80 generation</h1>
+          <img src={Bmw} alt="" className="w-full" />
+          <p>
             The M3 version of the F30 3 Series was designated the F80 and was
             produced from 2014 to 2018. The F80 M3 was powered by the BMW S55
             twin-turbocharged straight-six engine, therefore being the first
@@ -25,10 +25,10 @@ export default function App() {
             kg.
           </p>
         </div>
-        <div className="Cars">
-          <h1>The Lamborghini Huracán</h1>
-          <img src={Lamb} alt="" className="image" />
-          <p className="text">
+        <div className="w-[400px] card px-5 py-2 h-[700px]">
+          <h1 className="text-3xl">The Lamborghini Huracán</h1>
+          <img src={Lamb} alt="" className="w-full" />
+          <p>
             The Lamborghini Huracán is a sports car built by Italian automotive
             manufacturer Lamborghini from 2014 to 2024. The Huracán was revealed
             online in December 2013, making its worldwide debut at the 2014
@@ -45,10 +45,10 @@ export default function App() {
             Lamborghini models.
           </p>
         </div>
-        <div className="Cars">
-          <h1>Koenigsegg One:1</h1>
-          <img src={One} alt="" className="image" />
-          <p className="text">
+        <div className="w-[400px] px-5 py-2 card h-[700px]">
+          <h1 className="text-3xl">Koenigsegg One:1</h1>
+          <img src={One} alt="" className="w-full" />
+          <p>
             The Koenigsegg One:1 was presented at the 2014 Geneva Motor Show
             held in March.Koenigsegg built six cars apart from the car
             presented at the Geneva Motor Show, all of which were already
